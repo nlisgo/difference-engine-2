@@ -116,11 +116,18 @@ jQuery(document).ready(function($){
 		}
 		
 		var valstr = lpad(val, units);
+		
+		// @todo - nlisgo - below function breaks if units is greater than 15
+		if (val[0] == '-' && units <= 15) {
+			// negative values are achieved by addition. if there are 2 units adding 99 would have the same affect as subtracting 1
+			var tmp = Math.pow(10, units) + parseInt(val);
+			valstr = lpad(tmp.toString(), units);
+		}
+		
 		var valarr = valstr.split("");
 		var j = 0;
 		for (var i=units-1; i>=0; i--) {
 			set_dial(col, j, valarr[i]);
-			//$('#col-'+col.toString()+'-unit-'+j.toString()).val(valarr[i]);
 			j++;
 		}
 		
