@@ -10,7 +10,12 @@ jQuery(document).ready(function($){
 		units = parseInt($('#units', this).val());
 		
 		$('#build-engine').html(build_engine(cols, units));
+		$('#control-engine').html(build_controls(cols));
 		$('#monitor-engine').html('');
+		
+		$('#control-step-submit').button();
+		
+		set_controls();
 		
 		set_dialogs();
 		
@@ -33,7 +38,7 @@ jQuery(document).ready(function($){
 	function set_dialogs() {		
 		$('.dialog-form').dialog({
 			autoOpen: false,
-			height: 300,
+			height: 200,
 			width: 350,
 			modal: true,
 			buttons: {
@@ -58,6 +63,19 @@ jQuery(document).ready(function($){
 		});		
 	}
 	
+	function carry_flags() {
+		var carrys = [0];
+		$('carry').each(function (index) {
+			if ($('input', this).attr('checked')) {
+				carrys[index+1] = 1;
+			} else {
+				carrys[index+1] = 0;
+			}
+		});
+		
+		return carrys;
+	}
+	
 	// get value of column as a string
 	function get_val_col(col) {
 		var val = '';
@@ -70,7 +88,7 @@ jQuery(document).ready(function($){
 	
 	// adds values together one cog at a time. If a value > 9 then this will need to trigger a carry
 	// this is adding one unit at a time so this makes it easy to add together larger integers
-	function babbage_add(from, to) {
+	function babbage_add(from, to, carryflags) {
 		var len = from.toString().length;
 		if (to.toString().length > len) {
 			len = to.toString().length;
@@ -78,16 +96,45 @@ jQuery(document).ready(function($){
 		var fromstr = lpad(from, len);
 		var tostr = lpad(to, len);
 		
+		if (carryflags == undefined) {
+			var carryflags = [];
+			for (var i=0; i<len; i++) {
+				carryflags = 1;
+			}
+		}
+		
 		var fromarr = fromstr.split("");
 		var toarr = tostr.split("");
 		
-		var result = [];
+		var result = [0];
+		var carrys = [0];
+		var nocarrys = [0];
 		
 		for (var i=0; i<len; i++) {
-			result[i] = parseInt(fromarr[i])+parseInt(toarr[i]);
+			nocarrys[i+1] = result[i+1] = parseInt(fromarr[i])+parseInt(toarr[i]);
+			if (nocarrys[i+1]>=10) {
+				nocarrys[i+1] -= 10;
+			}
+			carrys[i+1] = 0;
 		}
 		
-		return result;
+		for (var i=result.length-1; i>0; i--) {
+			if (result[i]>=10) {
+				result[i] -= 10;
+				if (carryflags[i-1] == 1) {
+					result[i-1] += 1;
+					carrys[i-1] += 1;
+				}
+			}
+		}
+		
+		// return value with carries disabled, carries and result if all carries enabled
+		return {
+			'carryflags': carryflags,
+			'nocarrys': nocarrys,
+			'carrys': carrys,
+			'result': result
+		};
 	}
 	
 	// create string with padded characterd to the left of the string
@@ -109,6 +156,20 @@ jQuery(document).ready(function($){
 		return padstr;
 	}
 	
+	function animate_col(col, result, activeObj) {
+		var nocarrys = result.nocarrys.join('');
+		var result = result.result.join('');
+		
+		// settings value without carrys
+		set_col(col, nocarrys);
+		
+		// set end result after slight delay
+		activeObj.animate({opacity: 1.0}, 500, function () {
+			set_col(col, result);
+			activeObj.removeClass('active');
+		});
+	}
+	
 	// set the value of a column
 	function set_col(col, val) {
 		if (val == undefined) {
@@ -118,10 +179,10 @@ jQuery(document).ready(function($){
 		var valstr = lpad(val, units);
 		
 		// @todo - nlisgo - below function breaks if units is greater than 15
-		if (val[0] == '-' && units <= 15) {
+		if (val[0] == '-' && val.length <= 15) {
 			// negative values are achieved by addition. if there are 2 units adding 99 would have the same affect as subtracting 1
-			var tmp = Math.pow(10, units) + parseInt(val);
-			valstr = lpad(tmp.toString(), units);
+			var tmp = Math.pow(10, val.length) + parseInt(val);
+			valstr = lpad(tmp.toString(), units, '9');
 		}
 		
 		var valarr = valstr.split("");
@@ -140,6 +201,60 @@ jQuery(document).ready(function($){
 			val = 0;
 		}
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(val.toString());
+	}
+
+	// Set up jQuery for control form buttons
+	function set_controls() {
+		$('#control-form-step').submit(function () {
+			
+			if (!$(this).hasClass('active')) {
+			
+				$(this).addClass('active');
+			
+				var fromcol = parseInt($('#control-from', this).val());
+				var tocol = parseInt($('#control-to', this).val());
+				var fromval = get_val_col(fromcol);
+				var toval = get_val_col(tocol);
+			
+				var carryflags = carry_flags();
+			
+				var result = babbage_add(fromval, toval, carryflags);
+				
+				animate_col(tocol, result, $(this));
+			
+				// after result adjust the values of the from and to fields
+				var newfromcol = fromcol + 1;
+				var newtocol = tocol + 1;
+				var coldiff = fromcol - tocol;
+			
+				if (newfromcol >= $('column').length) {
+					newtocol = 0;
+					newfromcol = newtocol + coldiff;
+				} else if (newtocol >= $('column').length) {
+					coldiff = tocol - fromcol;
+					newfromcol = 0;
+					newtocol = newfromcol + coldiff;
+				}		
+			
+				$('#control-from', this).val(newfromcol.toString());
+				$('#control-to', this).val(newtocol.toString());
+			}
+			
+			return false;
+		});
+	}
+	
+	// build the engine controls
+	function build_controls(cols) {
+		var cols_default_from = cols - 1;
+		
+		var controls = '<form class="control-form" id="control-form-step">';
+		controls += '<label for="control-to">To: </label><input type="number" name="control-to" id="control-to" value="0" min="0" max="'+cols_default_from.toString()+'" />';
+		controls += '<label for="control-from">From: </label><input type="number" name="control-from" id="control-from" value="1" min="0" max="'+cols_default_from.toString()+'" />';
+		controls += '<input type="submit" name="control-step-submit" id="control-step-submit" value="Single Step" />';
+		controls += '</form>';
+		
+		return controls;
 	}
 	
 	// build the whole engine
@@ -195,7 +310,7 @@ jQuery(document).ready(function($){
 	}
 	
 	// this function could allow the user to use preset settings for examples
-	function preset(which) {
+	function preset_engine(which) {
 		switch (which) {
 			case 'xsquare':
 			case 'xsquared':
