@@ -211,10 +211,10 @@ jQuery(document).ready(function($){
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(res.toString());
 		
 		if (val != res) {
-			unit_class += '-to-'+res.toString();
+			unit_class += '-carry-'+res.toString();
 		}
 		
-		$('#col-'+col.toString()+'-unit-'+unit.toString()).attr('class', unit_class);
+		$('#col-'+col.toString()+'-unit-'+unit.toString()).parent('span').attr('class', unit_class);
 	}
 	
 	function transfer_col(fromcol, tocol) {
@@ -357,7 +357,7 @@ jQuery(document).ready(function($){
 	// build a single dial
 	function build_dial(col, unit) {
 		var dial_id = 'col-'+col.toString()+'-unit-'+unit.toString();
-		var dial = '<dial class="dial-unit-'+unit.toString()+'"><input type="number" name="'+dial_id+'" id="'+dial_id+'" value="0" min="0" max="9" /></dial>';
+		var dial = '<dial class="dial-unit-'+unit.toString()+'"><span><input type="number" name="'+dial_id+'" id="'+dial_id+'" value="0" min="0" max="9" /></span></dial>';
 		
 		return dial;
 	}
