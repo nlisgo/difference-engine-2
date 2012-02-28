@@ -1,0 +1,17 @@
+/* This file will hold the main styles for your website. */
+@import "bourbon/bourbon";
+
+carry, dial {
+	display: block;
+	height: 25px;
+}
+
+carrys, column {
+	float: left;
+	margin: 0 10px;
+}
+
+carrys input, column select {
+	float: left;
+	clear: left;
+}

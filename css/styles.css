@@ -1,14 +1,18 @@
+/* This file will hold the main styles for your website. */
+/* line 4, sass/styles.scss */
 carry, dial {
-	display: block;
-	height: 25px;
+  display: block;
+  height: 25px;
 }
 
+/* line 9, sass/styles.scss */
 carrys, column {
-	float: left;
-	margin: 0 10px;
+  float: left;
+  margin: 0 10px;
 }
 
+/* line 14, sass/styles.scss */
 carrys input, column select {
-	float: left;
-	clear: left;
+  float: left;
+  clear: left;
 }
