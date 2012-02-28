@@ -162,17 +162,16 @@ jQuery(document).ready(function($){
 		var nocarrys = result.nocarrys.join('');
 		var result = result.result.join('');
 		
-		// settings value without carrys
-		set_col(col, nocarrys);
+		set_col(col, nocarrys, result);
 		
 		// set end result after slight delay
-		$('body').append('&nbsp;').animate({opacity: 1.0}, 500, function () {
+		/*$('body').append('&nbsp;').animate({opacity: 1.0}, 500, function () {
 			set_col(col, result);
-		});
+		});*/
 	}
 	
 	// set the value of a column
-	function set_col(col, val) {
+	function set_col(col, val, res) {
 		if (val == undefined) {
 			val = 0;
 		}
@@ -186,10 +185,17 @@ jQuery(document).ready(function($){
 			valstr = lpad(tmp.toString(), units, '9');
 		}
 		
+		if (res == undefined) {
+			var resstr = valstr;
+		} else {
+			var resstr = lpad(res, units);
+		}
+		
 		var valarr = valstr.split("");
+		var resarr = resstr.split("");
 		var j = 0;
 		for (var i=units-1; i>=0; i--) {
-			set_dial(col, j, valarr[i]);
+			set_dial(col, j, valarr[i], resarr[i]);
 			j++;
 		}
 		
@@ -197,11 +203,18 @@ jQuery(document).ready(function($){
 	}
 	
 	// set the value of an individual dial
-	function set_dial(col, unit, val) {
+	function set_dial(col, unit, val, res) {
 		if (isNaN(parseInt(val))) {
 			val = 0;
 		}
-		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(val.toString());
+		var unit_class = 'from-'+$('#col-'+col.toString()+'-unit-'+unit.toString()).val()+'-to-'+val.toString();
+		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(res.toString());
+		
+		if (val != res) {
+			unit_class += '-to-'+res.toString();
+		}
+		
+		$('#col-'+col.toString()+'-unit-'+unit.toString()).attr('class', unit_class);
 	}
 	
 	function transfer_col(fromcol, tocol) {
