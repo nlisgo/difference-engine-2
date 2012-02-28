@@ -14,6 +14,8 @@ jQuery(document).ready(function($){
 		$('#monitor-engine').html('');
 		
 		$('#control-step-submit').button();
+		$('#control-half-submit').button();
+		$('#control-cycle-submit').button();
 		
 		set_controls();
 		
@@ -156,7 +158,7 @@ jQuery(document).ready(function($){
 		return padstr;
 	}
 	
-	function animate_col(col, result, activeObj) {
+	function animate_col(col, result) {
 		var nocarrys = result.nocarrys.join('');
 		var result = result.result.join('');
 		
@@ -164,9 +166,8 @@ jQuery(document).ready(function($){
 		set_col(col, nocarrys);
 		
 		// set end result after slight delay
-		activeObj.animate({opacity: 1.0}, 500, function () {
+		$('body').append('&nbsp;').animate({opacity: 1.0}, 500, function () {
 			set_col(col, result);
-			activeObj.removeClass('active');
 		});
 	}
 	
@@ -202,44 +203,71 @@ jQuery(document).ready(function($){
 		}
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(val.toString());
 	}
+	
+	function transfer_col(fromcol, tocol) {
+			
+		var fromval = get_val_col(fromcol);
+		var toval = get_val_col(tocol);
+		
+		var carryflags = carry_flags();
+		
+		var result = babbage_add(fromval, toval, carryflags);
+			
+		animate_col(tocol, result);
+		
+	}
 
 	// Set up jQuery for control form buttons
 	function set_controls() {
-		$('#control-form-step').submit(function () {
+		$('#control-form-half').submit(function () {
 			
-			if (!$(this).hasClass('active')) {
-			
-				$(this).addClass('active');
-			
-				var fromcol = parseInt($('#control-from', this).val());
-				var tocol = parseInt($('#control-to', this).val());
-				var fromval = get_val_col(fromcol);
-				var toval = get_val_col(tocol);
-			
-				var carryflags = carry_flags();
-			
-				var result = babbage_add(fromval, toval, carryflags);
-				
-				animate_col(tocol, result, $(this));
-			
-				// after result adjust the values of the from and to fields
-				var newfromcol = fromcol + 1;
-				var newtocol = tocol + 1;
-				var coldiff = fromcol - tocol;
-			
-				if (newfromcol >= $('column').length) {
-					newtocol = 0;
-					newfromcol = newtocol + coldiff;
-				} else if (newtocol >= $('column').length) {
-					coldiff = tocol - fromcol;
-					newfromcol = 0;
-					newtocol = newfromcol + coldiff;
-				}		
-			
-				$('#control-from', this).val(newfromcol.toString());
-				$('#control-to', this).val(newtocol.toString());
+			if (!$(this).hasClass('half-cycle')) {
+				$(this).addClass('half-cycle');
+				for (var i=0; i<$('column').length-2; i+=2) {
+					transfer_col(i+1, i);
+				}
+			} else {
+				$(this).removeClass('half-cycle');
+				for (var i=1; i<$('column').length-1; i+=2) {
+					transfer_col(i+1, i);
+				}
 			}
 			
+			return false;
+		});
+		
+		$('#control-form-cycle').submit(function () {
+			
+			for (var i=0; i<$('column').length-1; i++) {
+				transfer_col(i+1, i);
+			}
+			
+			return false;
+		});
+		
+		$('#control-form-step').submit(function () {
+			var fromcol = parseInt($('#control-from', this).val());
+			var tocol = parseInt($('#control-to', this).val());
+			
+			transfer_col(fromcol, tocol);
+		
+			// after result adjust the values of the from and to fields
+			var newfromcol = fromcol + 1;
+			var newtocol = tocol + 1;
+			var coldiff = fromcol - tocol;
+		
+			if (newfromcol >= $('column').length) {
+				newtocol = 0;
+				newfromcol = newtocol + coldiff;
+			} else if (newtocol >= $('column').length) {
+				coldiff = tocol - fromcol;
+				newfromcol = 0;
+				newtocol = newfromcol + coldiff;
+			}		
+		
+			$('#control-from', this).val(newfromcol.toString());
+			$('#control-to', this).val(newtocol.toString());
+		
 			return false;
 		});
 	}
@@ -248,10 +276,22 @@ jQuery(document).ready(function($){
 	function build_controls(cols) {
 		var cols_default_from = cols - 1;
 		
-		var controls = '<form class="control-form" id="control-form-step">';
-		controls += '<label for="control-to">To: </label><input type="number" name="control-to" id="control-to" value="0" min="0" max="'+cols_default_from.toString()+'" />';
-		controls += '<label for="control-from">From: </label><input type="number" name="control-from" id="control-from" value="1" min="0" max="'+cols_default_from.toString()+'" />';
-		controls += '<input type="submit" name="control-step-submit" id="control-step-submit" value="Single Step" />';
+		var controls = '';
+		
+		if (cols>2) {
+			controls += '<form class="control-form" id="control-form-step">';
+			controls += '<label for="control-to">To: </label><input type="number" name="control-to" id="control-to" value="0" min="0" max="'+cols_default_from.toString()+'" />';
+			controls += '<label for="control-from">From: </label><input type="number" name="control-from" id="control-from" value="1" min="0" max="'+cols_default_from.toString()+'" />';
+			controls += '<input type="submit" name="control-step-submit" id="control-step-submit" value="Single Step" />';
+			controls += '</form>';
+		
+			controls += '<form class="control-form" id="control-form-half">';
+			controls += '<input type="submit" name="control-half-submit" id="control-half-submit" value="Half Cycle" />';
+			controls += '</form>';
+		}
+		
+		controls += '<form class="control-form" id="control-form-cycle">';
+		controls += '<input type="submit" name="control-cycle-submit" id="control-cycle-submit" value="Single Cycle" />';
 		controls += '</form>';
 		
 		return controls;
