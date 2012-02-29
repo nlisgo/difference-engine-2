@@ -10,6 +10,13 @@ jQuery(document).ready(function($){
 		units = parseInt($('#units', this).val());
 		
 		$('#build-engine').html(build_engine(cols, units));
+		
+		if ($('#style-up', this).attr('checked')) {
+			$('#build-engine').addClass('style-up');
+		} else {
+			$('#build-engine').removeClass('style-up');
+		}
+		
 		$('#control-engine').html(build_controls(cols));
 		$('#monitor-engine').html('');
 		
@@ -207,14 +214,22 @@ jQuery(document).ready(function($){
 		if (isNaN(parseInt(val))) {
 			val = 0;
 		}
+		
 		var unit_class = 'from-'+$('#col-'+col.toString()+'-unit-'+unit.toString()).val()+'-to-'+val.toString();
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(res.toString());
 		
 		if (val != res) {
-			unit_class += '-carry-'+res.toString();
+			unit_class += ' carry';
 		}
 		
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).parent('span').attr('class', unit_class);
+		
+		if (val != res) {
+			setTimeout(function() {
+				unit_class = 'from-'+val.toString()+'-to-'+res.toString();
+				$('#col-'+col.toString()+'-unit-'+unit.toString()).parent('span').attr('class', unit_class);
+			},1250);
+		}
 	}
 	
 	function transfer_col(fromcol, tocol) {
