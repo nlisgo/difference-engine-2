@@ -233,7 +233,7 @@ jQuery(document).ready(function($){
 		output = lpad(output, units);
 		
 		$('#monitor-engine .results').append(output+"\n");
-		// @todo - nlisgo - each time a result is entered scroll to bottom
+		$('#monitor-engine .results').scrollTop($('#monitor-engine .results')[0].scrollHeight);
 	}
 	
 	// set the value of an individual dial
