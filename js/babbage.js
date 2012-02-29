@@ -245,12 +245,13 @@ jQuery(document).ready(function($){
 		var unit_class = 'from-'+$('#col-'+col.toString()+'-unit-'+unit.toString()).val()+'-to-'+val.toString();
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(res.toString());
 		
-		$('#col-'+col.toString()+'-unit-'+unit.toString()).parent('span').attr('class', unit_class);
+		$('#col-'+col.toString()+'-unit-'+unit.toString()).closest('div').attr('class', unit_class);
 		
 		if (val != res) {
 			setTimeout(function () {
+				// @todo - nlisgo - check to see if this is the current carry request
 				unit_class = 'from-'+val.toString()+'-to-'+res.toString()+' carry';
-				$('#col-'+col.toString()+'-unit-'+unit.toString()).parent('span').attr('class', unit_class);
+				$('#col-'+col.toString()+'-unit-'+unit.toString()).closest('div').attr('class', unit_class);
 			},1250);
 		}
 	}
@@ -395,7 +396,7 @@ jQuery(document).ready(function($){
 	// build a single dial
 	function build_dial(col, unit) {
 		var dial_id = 'col-'+col.toString()+'-unit-'+unit.toString();
-		var dial = '<dial class="dial-unit-'+unit.toString()+'"><span><input type="number" name="'+dial_id+'" id="'+dial_id+'" value="0" min="0" max="9" /></span></dial>';
+		var dial = '<dial class="dial-unit-'+unit.toString()+'"><div><span></span><input type="number" name="'+dial_id+'" id="'+dial_id+'" value="0" min="0" max="9" /></div></dial>';
 		
 		return dial;
 	}
