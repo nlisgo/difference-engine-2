@@ -254,18 +254,14 @@ jQuery(document).ready(function($){
 			val = 0;
 		}
 		
-		var unit_class = 'from-'+$('#col-'+col.toString()+'-unit-'+unit.toString()).val()+'-to-'+val.toString();
+		var unit_class = 'from-'+$('#col-'+col.toString()+'-unit-'+unit.toString()).val()+'-to-'+res.toString();
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(res.toString());
 		
-		$('#col-'+col.toString()+'-unit-'+unit.toString()).closest('div').attr('class', unit_class);
-		
 		if (val != res) {
-			setTimeout(function () {
-				// @todo - nlisgo - check to see if this is the current carry request
-				unit_class = 'from-'+val.toString()+'-to-'+res.toString()+' carry';
-				$('#col-'+col.toString()+'-unit-'+unit.toString()).closest('div').attr('class', unit_class);
-			},1250);
+			unit_class += ' carry';
 		}
+		
+		$('#col-'+col.toString()+'-unit-'+unit.toString()).closest('div').attr('class', unit_class);
 	}
 	
 	function transfer_col(fromcol, tocol) {

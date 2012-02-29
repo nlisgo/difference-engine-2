@@ -65,19 +65,25 @@ carrys input, column select
       $k: $j
       @if $i > $j
         $k: $j + 10
+      $animdur: 1.2s
       &.from-#{$i}-to-#{$j}
         background-position: -40px * $k
-        //+transition(background-position, 1s * $k / 10, linear)
-        -webkit-animation-duration: 1s * ($k - $i) / 10
-        -moz-animation-duration: 1s * ($k - $i) / 10
-        -ms-animation-duration: 1s * ($k - $i) / 10
-        -o-animation-duration: 1s * ($k - $i) / 10
-        animation-duration: 1s * ($k - $i) / 10
+        -webkit-animation-duration: $animdur
+        -moz-animation-duration: $animdur
+        -ms-animation-duration: $animdur
+        -o-animation-duration: $animdur
+        animation-duration: $animdur
         -webkit-animation-name: anim-from-#{$i}-to-#{$j}
         -moz-animation-name: anim-from-#{$i}-to-#{$j}
         -ms-animation-name: anim-from-#{$i}-to-#{$j}
         -o-animation-name: anim-from-#{$i}-to-#{$j}
         animation-name: anim-from-#{$i}-to-#{$j}
+      &.from-#{$i}-to-#{$j}.carry
+        -webkit-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        -moz-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        -ms-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        -o-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        animation-name: anim-from-#{$i}-to-#{$j}-carry
 
 @for $i from 0 through 9
   @for $j from 0 through 9
@@ -85,7 +91,36 @@ carrys input, column select
       $k: $j
       @if $i > $j
         $k: $j + 10
+      $m: $i
+      @for $l from 0 through 9
+        @if $k >= ($i + $l)
+          $m: $i + $l
       0%
         background-position: -40px * $i
+      @if $i != $j
+        #{8 * ($m - $i)}%
+          background-position: -40px * $m
+      92%
+        background-position: -40px * $m
+      100%
+        background-position: -40px * $m
+
+@for $i from 0 through 9
+  @for $j from 0 through 9
+    @-webkit-keyframes anim-from-#{$i}-to-#{$j}-carry
+      $k: $j
+      @if $i > $j
+        $k: $j + 10
+      $m: $i
+      @for $l from 0 through 9
+        @if $k > ($i + $l)
+          $m: $i + $l
+      0%
+        background-position: -40px * $i
+      @if $i != $j
+        #{8 * ($m - $i)}%
+          background-position: -40px * $m
+      92%
+        background-position: -40px * $m
       100%
         background-position: -40px * $k
