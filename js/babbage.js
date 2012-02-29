@@ -273,17 +273,19 @@ jQuery(document).ready(function($){
 	function set_controls() {
 		$('#control-form-half').submit(function () {
 			
+			var istart = 0;
+			
 			if (!$(this).hasClass('half-cycle')) {
 				$(this).addClass('half-cycle');
-				for (var i=0; i<$('column').length-2; i+=2) {
-					transfer_col(i+1, i);
-				}
 			} else {
 				$(this).removeClass('half-cycle');
-				for (var i=1; i<$('column').length-1; i+=2) {
-					transfer_col(i+1, i);
-				}
+				istart = 1;
+			}	
+			
+			for (var i=istart; i<$('column').length-1; i+=2) {
+				transfer_col(i+1, i);
 			}
+			
 			
 			return false;
 		});

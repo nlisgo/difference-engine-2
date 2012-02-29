@@ -46,12 +46,15 @@ carrys input, column select
   width: 100px
   background-image: url(../images/dial.png)
   background-repeat: no-repeat
-  display: block
+  display: block	
+  -webkit-animation-timing-function: linear
+  -moz-animation-timing-function: linear
+  -ms-animation-timing-function: linear
+  -o-animation-timing-function: linear
+  transition-timing-function: linear
   input
     display: none
   @for $i from 0 through 9
-    &.value-#{$i}
-      background-position: -40px * $i
     @for $j from 0 through 9
       $k: $j
       @if $i > $j
@@ -59,11 +62,6 @@ carrys input, column select
       &.from-#{$i}-to-#{$j}
         background-position: -40px * $k
         //+transition(background-position, 1s * $k / 10, linear)
-        -webkit-animation-timing-function: linear
-        -moz-animation-timing-function: linear
-        -ms-animation-timing-function: linear
-        -o-animation-timing-function: linear
-        transition-timing-function: linear
         -webkit-animation-duration: 1s * ($k - $i) / 10
         -moz-animation-duration: 1s * ($k - $i) / 10
         -ms-animation-duration: 1s * ($k - $i) / 10
@@ -74,12 +72,6 @@ carrys input, column select
         -ms-animation-name: anim-from-#{$i}-to-#{$j}
         -o-animation-name: anim-from-#{$i}-to-#{$j}
         animation-name: anim-from-#{$i}-to-#{$j}
-        &.carry
-          -webkit-animation-duration: 0
-          -moz-animation-duration: 0
-          -ms-animation-duration: 0
-          -o-animation-duration: 0
-          animation-duration: 0
 
 @for $i from 0 through 9
   @for $j from 0 through 9
