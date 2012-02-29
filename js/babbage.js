@@ -62,14 +62,25 @@ jQuery(document).ready(function($){
 			height: 200,
 			width: 350,
 			modal: true,
+			open: function () {
+				$(".dialog-form").submit(function(){
+					set_col($('.dialog-col', this).val(), $('.dialog-value', this).val());
+					$(this).dialog("close");
+					return false;
+				});
+			},
 			buttons: {
 				"Set": function () {
 					set_col($('.dialog-col', this).val(), $('.dialog-value', this).val());
 					$(this).dialog("close");
 				},
 				"Reset": function () {
-					set_col($('.dialog-col', this).val());
-					$(this).dialog("close");
+					var resetval = '';
+					for (var i=0; i<units; i++) {
+						resetval += '0';
+					}
+					
+					$('.dialog-value', this).val(resetval);
 				},
 				Cancel: function () {
 					$(this).dialog("close");
