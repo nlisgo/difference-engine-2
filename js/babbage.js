@@ -63,6 +63,7 @@ jQuery(document).ready(function($){
 			width: 350,
 			modal: true,
 			open: function () {
+				$(".dialog-form").unbind('submit');
 				$(".dialog-form").submit(function(){
 					set_col($('.dialog-col', this).val(), $('.dialog-value', this).val());
 					$(this).dialog("close");
