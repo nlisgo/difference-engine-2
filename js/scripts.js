@@ -5,6 +5,14 @@ jQuery(document).ready(function($){
 	
 	$('#set-engine-submit').button();
 	
+	$('#style-up').change(function () {
+		if ($(this).attr('checked')) {
+			$('#build-engine').addClass('style-up');
+		} else {
+			$('#build-engine').removeClass('style-up');
+		}
+	});
+	
 	$('#set-engine').submit(function () {
 		cols = parseInt($('#columns', this).val());
 		units = parseInt($('#units', this).val());
