@@ -30,7 +30,7 @@ jQuery(document).ready(function($){
 		}
 		
 		$('#control-engine').html(build_controls(cols));
-		$('#monitor-engine').html('');
+		$('#monitor-engine').html('<textarea class="results"></textarea>');
 		
 		$('#control-step-submit').button();
 		$('#control-half-submit').button();
@@ -181,7 +181,7 @@ jQuery(document).ready(function($){
 		var nocarrys = result.nocarrys.join('');
 		var result = result.result.join('');
 		
-		set_col(col, nocarrys, result);
+		set_col(col, nocarrys, result, true);
 		
 		// set end result after slight delay
 		/*$('body').append('&nbsp;').animate({opacity: 1.0}, 500, function () {
@@ -190,9 +190,13 @@ jQuery(document).ready(function($){
 	}
 	
 	// set the value of a column
-	function set_col(col, val, res) {
+	function set_col(col, val, res, output) {
 		if (val == undefined) {
 			val = 0;
+		}
+		
+		if (output == undefined) {
+			output = false;
 		}
 		
 		var valstr = lpad(val, units);
@@ -210,6 +214,10 @@ jQuery(document).ready(function($){
 			var resstr = lpad(res, units);
 		}
 		
+		if (output && col == 0) {
+			output_monitor(resstr);
+		}
+		
 		var valarr = valstr.split("");
 		var resarr = resstr.split("");
 		var j = 0;
@@ -219,6 +227,13 @@ jQuery(document).ready(function($){
 		}
 		
 		return false;
+	}
+	
+	function output_monitor(output) {
+		output = lpad(output, units);
+		
+		$('#monitor-engine .results').append(output+"\n");
+		// @todo - nlisgo - each time a result is entered scroll to bottom
 	}
 	
 	// set the value of an individual dial
