@@ -8,6 +8,10 @@ jQuery(document).ready(function($){
 	$('#style-up').change(function () {
 		if ($(this).attr('checked')) {
 			$('#build-engine').addClass('style-up');
+			$('column').each(function (index) {
+				var tmp = get_val_col(index);
+				set_col(index, tmp);
+			});
 		} else {
 			$('#build-engine').removeClass('style-up');
 		}
