@@ -1,23 +1,46 @@
 /* This file will hold the main styles for your website. */
 /* line 4, sass/styles.sass */
+#build-engine {
+  display: block;
+  float: left;
+  position: relative;
+}
+
+/* line 9, sass/styles.sass */
+#control-engine {
+  display: block;
+  position: relative;
+  float: left;
+}
+/* line 13, sass/styles.sass */
+#control-engine input {
+  float: left;
+}
+/* line 15, sass/styles.sass */
+#control-engine label, #control-engine #control-step-submit {
+  float: left;
+  clear: left;
+}
+
+/* line 19, sass/styles.sass */
 carry, dial {
   display: block;
   height: 25px;
 }
 
-/* line 8, sass/styles.sass */
+/* line 23, sass/styles.sass */
 carrys, column {
   float: left;
   margin: 0 10px;
 }
 
-/* line 12, sass/styles.sass */
+/* line 27, sass/styles.sass */
 carrys input, column select {
   float: left;
   clear: left;
 }
 
-/* line 16, sass/styles.sass */
+/* line 31, sass/styles.sass */
 .style-up dial span {
   height: 25px;
   width: 100px;
@@ -25,15 +48,15 @@ carrys input, column select {
   background-repeat: no-repeat;
   display: block;
 }
-/* line 22, sass/styles.sass */
+/* line 37, sass/styles.sass */
 .style-up dial span input {
   display: none;
 }
-/* line 25, sass/styles.sass */
+/* line 40, sass/styles.sass */
 .style-up dial span.value-0 {
   background-position: 0px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-0 {
   background-position: 0px;
   -webkit-animation-timing-function: linear;
@@ -52,7 +75,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-0;
   animation-name: anim-from-0-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-1 {
   background-position: -40px;
   -webkit-animation-timing-function: linear;
@@ -71,7 +102,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-1;
   animation-name: anim-from-0-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-2 {
   background-position: -80px;
   -webkit-animation-timing-function: linear;
@@ -90,7 +129,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-2;
   animation-name: anim-from-0-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-3 {
   background-position: -120px;
   -webkit-animation-timing-function: linear;
@@ -109,7 +156,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-3;
   animation-name: anim-from-0-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-4 {
   background-position: -160px;
   -webkit-animation-timing-function: linear;
@@ -128,7 +183,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-4;
   animation-name: anim-from-0-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-5 {
   background-position: -200px;
   -webkit-animation-timing-function: linear;
@@ -147,7 +210,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-5;
   animation-name: anim-from-0-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-6 {
   background-position: -240px;
   -webkit-animation-timing-function: linear;
@@ -166,7 +237,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-6;
   animation-name: anim-from-0-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -185,7 +264,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-7;
   animation-name: anim-from-0-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -204,7 +291,15 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-8;
   animation-name: anim-from-0-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-0-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -223,11 +318,19 @@ carrys input, column select {
   -o-animation-name: anim-from-0-to-9;
   animation-name: anim-from-0-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-0-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-1 {
   background-position: -40px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -246,7 +349,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-0;
   animation-name: anim-from-1-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-1 {
   background-position: -40px;
   -webkit-animation-timing-function: linear;
@@ -265,7 +376,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-1;
   animation-name: anim-from-1-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-2 {
   background-position: -80px;
   -webkit-animation-timing-function: linear;
@@ -284,7 +403,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-2;
   animation-name: anim-from-1-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-3 {
   background-position: -120px;
   -webkit-animation-timing-function: linear;
@@ -303,7 +430,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-3;
   animation-name: anim-from-1-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-4 {
   background-position: -160px;
   -webkit-animation-timing-function: linear;
@@ -322,7 +457,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-4;
   animation-name: anim-from-1-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-5 {
   background-position: -200px;
   -webkit-animation-timing-function: linear;
@@ -341,7 +484,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-5;
   animation-name: anim-from-1-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-6 {
   background-position: -240px;
   -webkit-animation-timing-function: linear;
@@ -360,7 +511,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-6;
   animation-name: anim-from-1-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -379,7 +538,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-7;
   animation-name: anim-from-1-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -398,7 +565,15 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-8;
   animation-name: anim-from-1-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-1-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -417,11 +592,19 @@ carrys input, column select {
   -o-animation-name: anim-from-1-to-9;
   animation-name: anim-from-1-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-1-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-2 {
   background-position: -80px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -440,7 +623,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-0;
   animation-name: anim-from-2-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -459,7 +650,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-1;
   animation-name: anim-from-2-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-2 {
   background-position: -80px;
   -webkit-animation-timing-function: linear;
@@ -478,7 +677,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-2;
   animation-name: anim-from-2-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-3 {
   background-position: -120px;
   -webkit-animation-timing-function: linear;
@@ -497,7 +704,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-3;
   animation-name: anim-from-2-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-4 {
   background-position: -160px;
   -webkit-animation-timing-function: linear;
@@ -516,7 +731,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-4;
   animation-name: anim-from-2-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-5 {
   background-position: -200px;
   -webkit-animation-timing-function: linear;
@@ -535,7 +758,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-5;
   animation-name: anim-from-2-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-6 {
   background-position: -240px;
   -webkit-animation-timing-function: linear;
@@ -554,7 +785,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-6;
   animation-name: anim-from-2-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -573,7 +812,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-7;
   animation-name: anim-from-2-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -592,7 +839,15 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-8;
   animation-name: anim-from-2-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-2-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -611,11 +866,19 @@ carrys input, column select {
   -o-animation-name: anim-from-2-to-9;
   animation-name: anim-from-2-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-2-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-3 {
   background-position: -120px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -634,7 +897,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-0;
   animation-name: anim-from-3-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -653,7 +924,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-1;
   animation-name: anim-from-3-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-2 {
   background-position: -480px;
   -webkit-animation-timing-function: linear;
@@ -672,7 +951,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-2;
   animation-name: anim-from-3-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-3 {
   background-position: -120px;
   -webkit-animation-timing-function: linear;
@@ -691,7 +978,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-3;
   animation-name: anim-from-3-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-4 {
   background-position: -160px;
   -webkit-animation-timing-function: linear;
@@ -710,7 +1005,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-4;
   animation-name: anim-from-3-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-5 {
   background-position: -200px;
   -webkit-animation-timing-function: linear;
@@ -729,7 +1032,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-5;
   animation-name: anim-from-3-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-6 {
   background-position: -240px;
   -webkit-animation-timing-function: linear;
@@ -748,7 +1059,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-6;
   animation-name: anim-from-3-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -767,7 +1086,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-7;
   animation-name: anim-from-3-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -786,7 +1113,15 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-8;
   animation-name: anim-from-3-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-3-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -805,11 +1140,19 @@ carrys input, column select {
   -o-animation-name: anim-from-3-to-9;
   animation-name: anim-from-3-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-3-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-4 {
   background-position: -160px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -828,7 +1171,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-0;
   animation-name: anim-from-4-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -847,7 +1198,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-1;
   animation-name: anim-from-4-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-2 {
   background-position: -480px;
   -webkit-animation-timing-function: linear;
@@ -866,7 +1225,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-2;
   animation-name: anim-from-4-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-3 {
   background-position: -520px;
   -webkit-animation-timing-function: linear;
@@ -885,7 +1252,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-3;
   animation-name: anim-from-4-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-4 {
   background-position: -160px;
   -webkit-animation-timing-function: linear;
@@ -904,7 +1279,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-4;
   animation-name: anim-from-4-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-5 {
   background-position: -200px;
   -webkit-animation-timing-function: linear;
@@ -923,7 +1306,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-5;
   animation-name: anim-from-4-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-6 {
   background-position: -240px;
   -webkit-animation-timing-function: linear;
@@ -942,7 +1333,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-6;
   animation-name: anim-from-4-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -961,7 +1360,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-7;
   animation-name: anim-from-4-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -980,7 +1387,15 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-8;
   animation-name: anim-from-4-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-4-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -999,11 +1414,19 @@ carrys input, column select {
   -o-animation-name: anim-from-4-to-9;
   animation-name: anim-from-4-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-4-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-5 {
   background-position: -200px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -1022,7 +1445,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-0;
   animation-name: anim-from-5-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -1041,7 +1472,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-1;
   animation-name: anim-from-5-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-2 {
   background-position: -480px;
   -webkit-animation-timing-function: linear;
@@ -1060,7 +1499,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-2;
   animation-name: anim-from-5-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-3 {
   background-position: -520px;
   -webkit-animation-timing-function: linear;
@@ -1079,7 +1526,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-3;
   animation-name: anim-from-5-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-4 {
   background-position: -560px;
   -webkit-animation-timing-function: linear;
@@ -1098,7 +1553,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-4;
   animation-name: anim-from-5-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-5 {
   background-position: -200px;
   -webkit-animation-timing-function: linear;
@@ -1117,7 +1580,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-5;
   animation-name: anim-from-5-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-6 {
   background-position: -240px;
   -webkit-animation-timing-function: linear;
@@ -1136,7 +1607,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-6;
   animation-name: anim-from-5-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -1155,7 +1634,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-7;
   animation-name: anim-from-5-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -1174,7 +1661,15 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-8;
   animation-name: anim-from-5-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-5-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -1193,11 +1688,19 @@ carrys input, column select {
   -o-animation-name: anim-from-5-to-9;
   animation-name: anim-from-5-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-5-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-6 {
   background-position: -240px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -1216,7 +1719,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-0;
   animation-name: anim-from-6-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -1235,7 +1746,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-1;
   animation-name: anim-from-6-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-2 {
   background-position: -480px;
   -webkit-animation-timing-function: linear;
@@ -1254,7 +1773,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-2;
   animation-name: anim-from-6-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-3 {
   background-position: -520px;
   -webkit-animation-timing-function: linear;
@@ -1273,7 +1800,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-3;
   animation-name: anim-from-6-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-4 {
   background-position: -560px;
   -webkit-animation-timing-function: linear;
@@ -1292,7 +1827,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-4;
   animation-name: anim-from-6-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-5 {
   background-position: -600px;
   -webkit-animation-timing-function: linear;
@@ -1311,7 +1854,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-5;
   animation-name: anim-from-6-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-6 {
   background-position: -240px;
   -webkit-animation-timing-function: linear;
@@ -1330,7 +1881,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-6;
   animation-name: anim-from-6-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -1349,7 +1908,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-7;
   animation-name: anim-from-6-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -1368,7 +1935,15 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-8;
   animation-name: anim-from-6-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-6-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -1387,11 +1962,19 @@ carrys input, column select {
   -o-animation-name: anim-from-6-to-9;
   animation-name: anim-from-6-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-6-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-7 {
   background-position: -280px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -1410,7 +1993,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-0;
   animation-name: anim-from-7-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -1429,7 +2020,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-1;
   animation-name: anim-from-7-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-2 {
   background-position: -480px;
   -webkit-animation-timing-function: linear;
@@ -1448,7 +2047,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-2;
   animation-name: anim-from-7-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-3 {
   background-position: -520px;
   -webkit-animation-timing-function: linear;
@@ -1467,7 +2074,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-3;
   animation-name: anim-from-7-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-4 {
   background-position: -560px;
   -webkit-animation-timing-function: linear;
@@ -1486,7 +2101,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-4;
   animation-name: anim-from-7-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-5 {
   background-position: -600px;
   -webkit-animation-timing-function: linear;
@@ -1505,7 +2128,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-5;
   animation-name: anim-from-7-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-6 {
   background-position: -640px;
   -webkit-animation-timing-function: linear;
@@ -1524,7 +2155,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-6;
   animation-name: anim-from-7-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-7 {
   background-position: -280px;
   -webkit-animation-timing-function: linear;
@@ -1543,7 +2182,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-7;
   animation-name: anim-from-7-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -1562,7 +2209,15 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-8;
   animation-name: anim-from-7-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-7-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -1581,11 +2236,19 @@ carrys input, column select {
   -o-animation-name: anim-from-7-to-9;
   animation-name: anim-from-7-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-7-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-8 {
   background-position: -320px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -1604,7 +2267,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-0;
   animation-name: anim-from-8-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -1623,7 +2294,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-1;
   animation-name: anim-from-8-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-2 {
   background-position: -480px;
   -webkit-animation-timing-function: linear;
@@ -1642,7 +2321,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-2;
   animation-name: anim-from-8-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-3 {
   background-position: -520px;
   -webkit-animation-timing-function: linear;
@@ -1661,7 +2348,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-3;
   animation-name: anim-from-8-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-4 {
   background-position: -560px;
   -webkit-animation-timing-function: linear;
@@ -1680,7 +2375,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-4;
   animation-name: anim-from-8-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-5 {
   background-position: -600px;
   -webkit-animation-timing-function: linear;
@@ -1699,7 +2402,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-5;
   animation-name: anim-from-8-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-6 {
   background-position: -640px;
   -webkit-animation-timing-function: linear;
@@ -1718,7 +2429,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-6;
   animation-name: anim-from-8-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-7 {
   background-position: -680px;
   -webkit-animation-timing-function: linear;
@@ -1737,7 +2456,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-7;
   animation-name: anim-from-8-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-8 {
   background-position: -320px;
   -webkit-animation-timing-function: linear;
@@ -1756,7 +2483,15 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-8;
   animation-name: anim-from-8-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-8-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -1775,11 +2510,19 @@ carrys input, column select {
   -o-animation-name: anim-from-8-to-9;
   animation-name: anim-from-8-to-9;
 }
-/* line 25, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-8-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 40, sass/styles.sass */
 .style-up dial span.value-9 {
   background-position: -360px;
 }
-/* line 31, sass/styles.sass */
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-0 {
   background-position: -400px;
   -webkit-animation-timing-function: linear;
@@ -1798,7 +2541,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-0;
   animation-name: anim-from-9-to-0;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-0.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-1 {
   background-position: -440px;
   -webkit-animation-timing-function: linear;
@@ -1817,7 +2568,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-1;
   animation-name: anim-from-9-to-1;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-1.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-2 {
   background-position: -480px;
   -webkit-animation-timing-function: linear;
@@ -1836,7 +2595,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-2;
   animation-name: anim-from-9-to-2;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-2.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-3 {
   background-position: -520px;
   -webkit-animation-timing-function: linear;
@@ -1855,7 +2622,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-3;
   animation-name: anim-from-9-to-3;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-3.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-4 {
   background-position: -560px;
   -webkit-animation-timing-function: linear;
@@ -1874,7 +2649,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-4;
   animation-name: anim-from-9-to-4;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-4.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-5 {
   background-position: -600px;
   -webkit-animation-timing-function: linear;
@@ -1893,7 +2676,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-5;
   animation-name: anim-from-9-to-5;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-5.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-6 {
   background-position: -640px;
   -webkit-animation-timing-function: linear;
@@ -1912,7 +2703,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-6;
   animation-name: anim-from-9-to-6;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-6.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-7 {
   background-position: -680px;
   -webkit-animation-timing-function: linear;
@@ -1931,7 +2730,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-7;
   animation-name: anim-from-9-to-7;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-7.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-8 {
   background-position: -720px;
   -webkit-animation-timing-function: linear;
@@ -1950,7 +2757,15 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-8;
   animation-name: anim-from-9-to-8;
 }
-/* line 31, sass/styles.sass */
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-8.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
+/* line 46, sass/styles.sass */
 .style-up dial span.from-9-to-9 {
   background-position: -360px;
   -webkit-animation-timing-function: linear;
@@ -1969,1202 +2784,1210 @@ carrys input, column select {
   -o-animation-name: anim-from-9-to-9;
   animation-name: anim-from-9-to-9;
 }
+/* line 64, sass/styles.sass */
+.style-up dial span.from-9-to-9.carry {
+  -webkit-animation-duration: 0;
+  -moz-animation-duration: 0;
+  -ms-animation-duration: 0;
+  -o-animation-duration: 0;
+  animation-duration: 0;
+}
 
 @-webkit-keyframes anim-from-0-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: 0px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -40px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -40px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-0 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-1 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-2 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-3 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-4 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-5 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-6 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-7 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-8 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -720px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-9 {
-  /* line 56, sass/styles.sass */
+  /* line 77, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 58, sass/styles.sass */
+  /* line 79, sass/styles.sass */
   100% {
     background-position: -360px;
   }

@@ -1,6 +1,21 @@
 /* This file will hold the main styles for your website.
 @import bourbon/bourbon
 
+#build-engine
+  display: block
+  float: left
+  position: relative
+
+#control-engine
+  display: block
+  position: relative
+  float: left
+  input
+    float: left
+  label, #control-step-submit
+    float: left
+    clear: left
+
 carry, dial
   display: block
   height: 25px
@@ -46,6 +61,12 @@ carrys input, column select
         -ms-animation-name: anim-from-#{$i}-to-#{$j}
         -o-animation-name: anim-from-#{$i}-to-#{$j}
         animation-name: anim-from-#{$i}-to-#{$j}
+        &.carry
+          -webkit-animation-duration: 0
+          -moz-animation-duration: 0
+          -ms-animation-duration: 0
+          -o-animation-duration: 0
+          animation-duration: 0
 
 @for $i from 0 through 9
   @for $j from 0 through 9

@@ -230,15 +230,11 @@ jQuery(document).ready(function($){
 		var unit_class = 'from-'+$('#col-'+col.toString()+'-unit-'+unit.toString()).val()+'-to-'+val.toString();
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).val(res.toString());
 		
-		if (val != res) {
-			unit_class += ' carry';
-		}
-		
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).parent('span').attr('class', unit_class);
 		
 		if (val != res) {
-			setTimeout(function() {
-				unit_class = 'from-'+val.toString()+'-to-'+res.toString();
+			setTimeout(function () {
+				unit_class = 'from-'+val.toString()+'-to-'+res.toString()+' carry';
 				$('#col-'+col.toString()+'-unit-'+unit.toString()).parent('span').attr('class', unit_class);
 			},1250);
 		}
