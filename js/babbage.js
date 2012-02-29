@@ -8,7 +8,7 @@ jQuery(document).ready(function($){
 	$('#style-up').change(function () {
 		if ($(this).attr('checked')) {
 			$('#build-engine').addClass('style-up');
-			$('column').each(function (index) {
+			$('.column').each(function (index) {
 				var tmp = get_val_col(index);
 				set_col(index, tmp);
 			});
@@ -41,15 +41,15 @@ jQuery(document).ready(function($){
 		set_dialogs();
 		
 		// toggle carry checkboxes
-		$('carrys h2').button().click(function () {
+		$('.carrys h2').button().click(function () {
 			var checked = false;
-			$('carrys input').each(function () {
+			$('.carrys input').each(function () {
 				if (!$(this).attr('checked')) {
 					checked = true;
 				}
 			});
 			
-			$('carrys input').attr('checked', checked);
+			$('.carrys input').attr('checked', checked);
 		});
 		
 		return false;
@@ -89,8 +89,8 @@ jQuery(document).ready(function($){
 			}
 		});
 		
-		$('column h2').button().click(function () {
-			var col = $(this).parent('column').index()-1;
+		$('.column h2').button().click(function () {
+			var col = $(this).parent('.column').index()-1;
 			$('#dialog-col-'+col+' .dialog-value').val(get_val_col(col));
 			$('#dialog-col-'+col).dialog("open");
 		});		
@@ -98,7 +98,7 @@ jQuery(document).ready(function($){
 	
 	function carry_flags() {
 		var carrys = [0];
-		$('carry').each(function (index) {
+		$('.carry').each(function (index) {
 			if ($('input', this).attr('checked')) {
 				carrys[index+1] = 1;
 			} else {
@@ -290,7 +290,7 @@ jQuery(document).ready(function($){
 				istart = 1;
 			}	
 			
-			for (var i=istart; i<$('column').length-1; i+=2) {
+			for (var i=istart; i<$('.column').length-1; i+=2) {
 				transfer_col(i+1, i);
 			}
 			
@@ -300,7 +300,7 @@ jQuery(document).ready(function($){
 		
 		$('#control-form-cycle').submit(function () {
 			
-			for (var i=0; i<$('column').length-1; i++) {
+			for (var i=0; i<$('.column').length-1; i++) {
 				transfer_col(i+1, i);
 			}
 			
@@ -318,10 +318,10 @@ jQuery(document).ready(function($){
 			var newtocol = tocol + 1;
 			var coldiff = fromcol - tocol;
 		
-			if (newfromcol >= $('column').length) {
+			if (newfromcol >= $('.column').length) {
 				newtocol = 0;
 				newfromcol = newtocol + coldiff;
-			} else if (newtocol >= $('column').length) {
+			} else if (newtocol >= $('.column').length) {
 				coldiff = tocol - fromcol;
 				newfromcol = 0;
 				newtocol = newfromcol + coldiff;
@@ -341,14 +341,13 @@ jQuery(document).ready(function($){
 		var controls = '';
 		
 		if (cols>2) {
+			controls += '<form class="control-form" id="control-form-half">';
+			controls += '<input type="submit" name="control-half-submit" id="control-half-submit" value="Half Cycle" />';
+			controls += '</form>';
 			controls += '<form class="control-form" id="control-form-step">';
 			controls += '<label for="control-to">To: </label><input type="number" name="control-to" id="control-to" value="0" min="0" max="'+cols_default_from.toString()+'" />';
 			controls += '<label for="control-from">From: </label><input type="number" name="control-from" id="control-from" value="1" min="0" max="'+cols_default_from.toString()+'" />';
 			controls += '<input type="submit" name="control-step-submit" id="control-step-submit" value="Single Step" />';
-			controls += '</form>';
-		
-			controls += '<form class="control-form" id="control-form-half">';
-			controls += '<input type="submit" name="control-half-submit" id="control-half-submit" value="Half Cycle" />';
 			controls += '</form>';
 		}
 		
@@ -371,11 +370,11 @@ jQuery(document).ready(function($){
 	
 	// build the carry switchs
 	function build_carry_switchs(units) {
-		var carrys = '<carrys><h2>Carrys</h2>';
+		var carrys = '<div class="carrys"><h2>Carrys</h2>';
 		for (var i=units-1; i>0; i--) {
-			carrys += '<carry class="carry-unit-'+i.toString()+'"><input type="checkbox" name="carry-'+i.toString()+'" id="carry-'+i.toString()+'" value="1" checked="checked" /></carry>';
+			carrys += '<div class="carry carry-unit-'+i.toString()+'"><input type="checkbox" name="carry-'+i.toString()+'" id="carry-'+i.toString()+'" value="1" checked="checked" /></div>';
 		}
-		carrys += '</carrys>';
+		carrys += '</div>';
 		
 		return carrys;
 	}
@@ -392,13 +391,13 @@ jQuery(document).ready(function($){
 	// build a column
 	function build_col(col, units) {
 		var column_id = 'col-'+col.toString();
-		var column = '<column id="'+column_id+'"><h2>Col '+col.toString()+'</h2>';
+		var column = '<div class="column" id="'+column_id+'"><h2>Col '+col.toString()+'</h2>';
 		column += build_col_dialog(col);
 		
 		for (var i=units-1; i>=0; i--) {
 			column += build_dial(col, i);
 		}
-		column += '</column>';
+		column += '</div>';
 		
 		return column;
 	} 
@@ -406,7 +405,7 @@ jQuery(document).ready(function($){
 	// build a single dial
 	function build_dial(col, unit) {
 		var dial_id = 'col-'+col.toString()+'-unit-'+unit.toString();
-		var dial = '<dial class="dial-unit-'+unit.toString()+'"><div><span></span><input type="number" name="'+dial_id+'" id="'+dial_id+'" value="0" min="0" max="9" /></div></dial>';
+		var dial = '<div class="dial dial-unit-'+unit.toString()+'"><div><span></span><input type="number" name="'+dial_id+'" id="'+dial_id+'" value="0" min="0" max="9" /></div></div>';
 		
 		return dial;
 	}
