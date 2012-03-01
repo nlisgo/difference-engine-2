@@ -2296,16 +2296,6 @@
   0% {
     background-position: 0px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: 0px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: 0px;
-  }
 }
 
 @-webkit-keyframes anim-from-0-to-1 {
@@ -2316,16 +2306,6 @@
 
   /* line 107, sass/styles.sass */
   8% {
-    background-position: -40px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -40px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -40px;
   }
 }
@@ -2340,16 +2320,6 @@
   16% {
     background-position: -80px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -80px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -80px;
-  }
 }
 
 @-webkit-keyframes anim-from-0-to-3 {
@@ -2360,16 +2330,6 @@
 
   /* line 107, sass/styles.sass */
   24% {
-    background-position: -120px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -120px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -120px;
   }
 }
@@ -2384,16 +2344,6 @@
   32% {
     background-position: -160px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -160px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -160px;
-  }
 }
 
 @-webkit-keyframes anim-from-0-to-5 {
@@ -2404,16 +2354,6 @@
 
   /* line 107, sass/styles.sass */
   40% {
-    background-position: -200px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -200px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -200px;
   }
 }
@@ -2428,16 +2368,6 @@
   48% {
     background-position: -240px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -240px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -240px;
-  }
 }
 
 @-webkit-keyframes anim-from-0-to-7 {
@@ -2448,16 +2378,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -280px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -280px;
   }
 }
@@ -2472,16 +2392,6 @@
   64% {
     background-position: -320px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -320px;
-  }
 }
 
 @-webkit-keyframes anim-from-0-to-9 {
@@ -2492,16 +2402,6 @@
 
   /* line 107, sass/styles.sass */
   72% {
-    background-position: -360px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -360px;
   }
 }
@@ -2516,31 +2416,11 @@
   72% {
     background-position: -400px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -400px;
-  }
 }
 
 @-webkit-keyframes anim-from-1-to-1 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -40px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -40px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -40px;
   }
 }
@@ -2555,16 +2435,6 @@
   8% {
     background-position: -80px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -80px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -80px;
-  }
 }
 
 @-webkit-keyframes anim-from-1-to-3 {
@@ -2575,16 +2445,6 @@
 
   /* line 107, sass/styles.sass */
   16% {
-    background-position: -120px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -120px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -120px;
   }
 }
@@ -2599,16 +2459,6 @@
   24% {
     background-position: -160px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -160px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -160px;
-  }
 }
 
 @-webkit-keyframes anim-from-1-to-5 {
@@ -2619,16 +2469,6 @@
 
   /* line 107, sass/styles.sass */
   32% {
-    background-position: -200px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -200px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -200px;
   }
 }
@@ -2643,16 +2483,6 @@
   40% {
     background-position: -240px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -240px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -240px;
-  }
 }
 
 @-webkit-keyframes anim-from-1-to-7 {
@@ -2663,16 +2493,6 @@
 
   /* line 107, sass/styles.sass */
   48% {
-    background-position: -280px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -280px;
   }
 }
@@ -2687,16 +2507,6 @@
   56% {
     background-position: -320px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -320px;
-  }
 }
 
 @-webkit-keyframes anim-from-1-to-9 {
@@ -2707,16 +2517,6 @@
 
   /* line 107, sass/styles.sass */
   64% {
-    background-position: -360px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -360px;
   }
 }
@@ -2731,16 +2531,6 @@
   64% {
     background-position: -400px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -400px;
-  }
 }
 
 @-webkit-keyframes anim-from-2-to-1 {
@@ -2753,31 +2543,11 @@
   72% {
     background-position: -440px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -440px;
-  }
 }
 
 @-webkit-keyframes anim-from-2-to-2 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -80px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -80px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -80px;
   }
 }
@@ -2792,16 +2562,6 @@
   8% {
     background-position: -120px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -120px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -120px;
-  }
 }
 
 @-webkit-keyframes anim-from-2-to-4 {
@@ -2812,16 +2572,6 @@
 
   /* line 107, sass/styles.sass */
   16% {
-    background-position: -160px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -160px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -160px;
   }
 }
@@ -2836,16 +2586,6 @@
   24% {
     background-position: -200px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -200px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -200px;
-  }
 }
 
 @-webkit-keyframes anim-from-2-to-6 {
@@ -2856,16 +2596,6 @@
 
   /* line 107, sass/styles.sass */
   32% {
-    background-position: -240px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -240px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -240px;
   }
 }
@@ -2880,16 +2610,6 @@
   40% {
     background-position: -280px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -280px;
-  }
 }
 
 @-webkit-keyframes anim-from-2-to-8 {
@@ -2900,16 +2620,6 @@
 
   /* line 107, sass/styles.sass */
   48% {
-    background-position: -320px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -320px;
   }
 }
@@ -2924,16 +2634,6 @@
   56% {
     background-position: -360px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -360px;
-  }
 }
 
 @-webkit-keyframes anim-from-3-to-0 {
@@ -2944,16 +2644,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -400px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -400px;
   }
 }
@@ -2968,16 +2658,6 @@
   64% {
     background-position: -440px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -440px;
-  }
 }
 
 @-webkit-keyframes anim-from-3-to-2 {
@@ -2990,31 +2670,11 @@
   72% {
     background-position: -480px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -480px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -480px;
-  }
 }
 
 @-webkit-keyframes anim-from-3-to-3 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -120px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -120px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -120px;
   }
 }
@@ -3029,16 +2689,6 @@
   8% {
     background-position: -160px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -160px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -160px;
-  }
 }
 
 @-webkit-keyframes anim-from-3-to-5 {
@@ -3049,16 +2699,6 @@
 
   /* line 107, sass/styles.sass */
   16% {
-    background-position: -200px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -200px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -200px;
   }
 }
@@ -3073,16 +2713,6 @@
   24% {
     background-position: -240px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -240px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -240px;
-  }
 }
 
 @-webkit-keyframes anim-from-3-to-7 {
@@ -3093,16 +2723,6 @@
 
   /* line 107, sass/styles.sass */
   32% {
-    background-position: -280px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -280px;
   }
 }
@@ -3117,16 +2737,6 @@
   40% {
     background-position: -320px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -320px;
-  }
 }
 
 @-webkit-keyframes anim-from-3-to-9 {
@@ -3137,16 +2747,6 @@
 
   /* line 107, sass/styles.sass */
   48% {
-    background-position: -360px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -360px;
   }
 }
@@ -3161,16 +2761,6 @@
   48% {
     background-position: -400px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -400px;
-  }
 }
 
 @-webkit-keyframes anim-from-4-to-1 {
@@ -3181,16 +2771,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -440px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -440px;
   }
 }
@@ -3205,16 +2785,6 @@
   64% {
     background-position: -480px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -480px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -480px;
-  }
 }
 
 @-webkit-keyframes anim-from-4-to-3 {
@@ -3227,31 +2797,11 @@
   72% {
     background-position: -520px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -520px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -520px;
-  }
 }
 
 @-webkit-keyframes anim-from-4-to-4 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -160px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -160px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -160px;
   }
 }
@@ -3266,16 +2816,6 @@
   8% {
     background-position: -200px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -200px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -200px;
-  }
 }
 
 @-webkit-keyframes anim-from-4-to-6 {
@@ -3286,16 +2826,6 @@
 
   /* line 107, sass/styles.sass */
   16% {
-    background-position: -240px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -240px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -240px;
   }
 }
@@ -3310,16 +2840,6 @@
   24% {
     background-position: -280px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -280px;
-  }
 }
 
 @-webkit-keyframes anim-from-4-to-8 {
@@ -3330,16 +2850,6 @@
 
   /* line 107, sass/styles.sass */
   32% {
-    background-position: -320px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -320px;
   }
 }
@@ -3354,16 +2864,6 @@
   40% {
     background-position: -360px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -360px;
-  }
 }
 
 @-webkit-keyframes anim-from-5-to-0 {
@@ -3374,16 +2874,6 @@
 
   /* line 107, sass/styles.sass */
   40% {
-    background-position: -400px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -400px;
   }
 }
@@ -3398,16 +2888,6 @@
   48% {
     background-position: -440px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -440px;
-  }
 }
 
 @-webkit-keyframes anim-from-5-to-2 {
@@ -3418,16 +2898,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -480px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -480px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -480px;
   }
 }
@@ -3442,16 +2912,6 @@
   64% {
     background-position: -520px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -520px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -520px;
-  }
 }
 
 @-webkit-keyframes anim-from-5-to-4 {
@@ -3464,31 +2924,11 @@
   72% {
     background-position: -560px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -560px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -560px;
-  }
 }
 
 @-webkit-keyframes anim-from-5-to-5 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -200px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -200px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -200px;
   }
 }
@@ -3503,16 +2943,6 @@
   8% {
     background-position: -240px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -240px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -240px;
-  }
 }
 
 @-webkit-keyframes anim-from-5-to-7 {
@@ -3523,16 +2953,6 @@
 
   /* line 107, sass/styles.sass */
   16% {
-    background-position: -280px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -280px;
   }
 }
@@ -3547,16 +2967,6 @@
   24% {
     background-position: -320px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -320px;
-  }
 }
 
 @-webkit-keyframes anim-from-5-to-9 {
@@ -3567,16 +2977,6 @@
 
   /* line 107, sass/styles.sass */
   32% {
-    background-position: -360px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -360px;
   }
 }
@@ -3591,16 +2991,6 @@
   32% {
     background-position: -400px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -400px;
-  }
 }
 
 @-webkit-keyframes anim-from-6-to-1 {
@@ -3611,16 +3001,6 @@
 
   /* line 107, sass/styles.sass */
   40% {
-    background-position: -440px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -440px;
   }
 }
@@ -3635,16 +3015,6 @@
   48% {
     background-position: -480px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -480px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -480px;
-  }
 }
 
 @-webkit-keyframes anim-from-6-to-3 {
@@ -3655,16 +3025,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -520px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -520px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -520px;
   }
 }
@@ -3679,16 +3039,6 @@
   64% {
     background-position: -560px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -560px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -560px;
-  }
 }
 
 @-webkit-keyframes anim-from-6-to-5 {
@@ -3701,31 +3051,11 @@
   72% {
     background-position: -600px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -600px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -600px;
-  }
 }
 
 @-webkit-keyframes anim-from-6-to-6 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -240px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -240px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -240px;
   }
 }
@@ -3740,16 +3070,6 @@
   8% {
     background-position: -280px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -280px;
-  }
 }
 
 @-webkit-keyframes anim-from-6-to-8 {
@@ -3760,16 +3080,6 @@
 
   /* line 107, sass/styles.sass */
   16% {
-    background-position: -320px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -320px;
   }
 }
@@ -3784,16 +3094,6 @@
   24% {
     background-position: -360px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -360px;
-  }
 }
 
 @-webkit-keyframes anim-from-7-to-0 {
@@ -3804,16 +3104,6 @@
 
   /* line 107, sass/styles.sass */
   24% {
-    background-position: -400px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -400px;
   }
 }
@@ -3828,16 +3118,6 @@
   32% {
     background-position: -440px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -440px;
-  }
 }
 
 @-webkit-keyframes anim-from-7-to-2 {
@@ -3848,16 +3128,6 @@
 
   /* line 107, sass/styles.sass */
   40% {
-    background-position: -480px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -480px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -480px;
   }
 }
@@ -3872,16 +3142,6 @@
   48% {
     background-position: -520px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -520px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -520px;
-  }
 }
 
 @-webkit-keyframes anim-from-7-to-4 {
@@ -3892,16 +3152,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -560px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -560px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -560px;
   }
 }
@@ -3916,16 +3166,6 @@
   64% {
     background-position: -600px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -600px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -600px;
-  }
 }
 
 @-webkit-keyframes anim-from-7-to-6 {
@@ -3938,31 +3178,11 @@
   72% {
     background-position: -640px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -640px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -640px;
-  }
 }
 
 @-webkit-keyframes anim-from-7-to-7 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -280px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -280px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -280px;
   }
 }
@@ -3977,16 +3197,6 @@
   8% {
     background-position: -320px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -320px;
-  }
 }
 
 @-webkit-keyframes anim-from-7-to-9 {
@@ -3997,16 +3207,6 @@
 
   /* line 107, sass/styles.sass */
   16% {
-    background-position: -360px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -360px;
   }
 }
@@ -4021,16 +3221,6 @@
   16% {
     background-position: -400px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -400px;
-  }
 }
 
 @-webkit-keyframes anim-from-8-to-1 {
@@ -4041,16 +3231,6 @@
 
   /* line 107, sass/styles.sass */
   24% {
-    background-position: -440px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -440px;
   }
 }
@@ -4065,16 +3245,6 @@
   32% {
     background-position: -480px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -480px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -480px;
-  }
 }
 
 @-webkit-keyframes anim-from-8-to-3 {
@@ -4085,16 +3255,6 @@
 
   /* line 107, sass/styles.sass */
   40% {
-    background-position: -520px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -520px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -520px;
   }
 }
@@ -4109,16 +3269,6 @@
   48% {
     background-position: -560px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -560px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -560px;
-  }
 }
 
 @-webkit-keyframes anim-from-8-to-5 {
@@ -4129,16 +3279,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -600px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -600px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -600px;
   }
 }
@@ -4153,16 +3293,6 @@
   64% {
     background-position: -640px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -640px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -640px;
-  }
 }
 
 @-webkit-keyframes anim-from-8-to-7 {
@@ -4175,31 +3305,11 @@
   72% {
     background-position: -680px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -680px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -680px;
-  }
 }
 
 @-webkit-keyframes anim-from-8-to-8 {
   /* line 104, sass/styles.sass */
   0% {
-    background-position: -320px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -320px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -320px;
   }
 }
@@ -4214,16 +3324,6 @@
   8% {
     background-position: -360px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -360px;
-  }
 }
 
 @-webkit-keyframes anim-from-9-to-0 {
@@ -4234,16 +3334,6 @@
 
   /* line 107, sass/styles.sass */
   8% {
-    background-position: -400px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -400px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -400px;
   }
 }
@@ -4258,16 +3348,6 @@
   16% {
     background-position: -440px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -440px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -440px;
-  }
 }
 
 @-webkit-keyframes anim-from-9-to-2 {
@@ -4278,16 +3358,6 @@
 
   /* line 107, sass/styles.sass */
   24% {
-    background-position: -480px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -480px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -480px;
   }
 }
@@ -4302,16 +3372,6 @@
   32% {
     background-position: -520px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -520px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -520px;
-  }
 }
 
 @-webkit-keyframes anim-from-9-to-4 {
@@ -4322,16 +3382,6 @@
 
   /* line 107, sass/styles.sass */
   40% {
-    background-position: -560px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -560px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -560px;
   }
 }
@@ -4346,16 +3396,6 @@
   48% {
     background-position: -600px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -600px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -600px;
-  }
 }
 
 @-webkit-keyframes anim-from-9-to-6 {
@@ -4366,16 +3406,6 @@
 
   /* line 107, sass/styles.sass */
   56% {
-    background-position: -640px;
-  }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -640px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
     background-position: -640px;
   }
 }
@@ -4390,16 +3420,6 @@
   64% {
     background-position: -680px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -680px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -680px;
-  }
 }
 
 @-webkit-keyframes anim-from-9-to-8 {
@@ -4412,16 +3432,6 @@
   72% {
     background-position: -720px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -720px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -720px;
-  }
 }
 
 @-webkit-keyframes anim-from-9-to-9 {
@@ -4429,2164 +3439,2154 @@
   0% {
     background-position: -360px;
   }
-
-  /* line 109, sass/styles.sass */
-  92% {
-    background-position: -360px;
-  }
-
-  /* line 111, sass/styles.sass */
-  100% {
-    background-position: -360px;
-  }
 }
 
 @-webkit-keyframes anim-from-0-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: 0px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: 0px;
+    background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: 0px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: 0px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -40px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -40px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -40px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -80px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -80px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -120px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -160px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -200px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -240px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -40px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -40px;
+    background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -40px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -40px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -80px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -80px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -120px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -160px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -200px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -240px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -80px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -80px;
+    background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -80px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -80px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -120px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -160px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -200px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -240px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -440px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -120px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -480px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -120px;
+    background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -120px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -160px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -200px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -240px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -440px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -480px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -160px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -520px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -520px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -160px;
+    background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -160px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -200px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -240px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -440px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -480px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -520px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -200px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -560px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -560px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -200px;
+    background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -200px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -240px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -440px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -480px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -520px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -560px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -240px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -600px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -600px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -240px;
+    background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -240px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -440px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -480px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -520px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -560px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -600px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -600px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -280px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -640px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -640px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -280px;
+    background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -280px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -440px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -480px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -520px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -560px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -600px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -600px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -640px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -640px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -320px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -680px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -680px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -320px;
+    background-position: -720px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -320px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-0-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
-  0% {
-    background-position: -360px;
-  }
-
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-1-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   8% {
     background-position: -400px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-2-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   16% {
     background-position: -440px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-3-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   24% {
     background-position: -480px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-4-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   32% {
     background-position: -520px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-5-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   40% {
     background-position: -560px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-6-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   48% {
     background-position: -600px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -600px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-7-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   56% {
     background-position: -640px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -640px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-8-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   64% {
     background-position: -680px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   92% {
     background-position: -680px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 127, sass/styles.sass */
   100% {
     background-position: -720px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-9-carry {
-  /* line 124, sass/styles.sass */
+  /* line 120, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 129, sass/styles.sass */
-  92% {
-    background-position: -360px;
+  /* line 123, sass/styles.sass */
+  72% {
+    background-position: -720px;
   }
 
-  /* line 131, sass/styles.sass */
+  /* line 125, sass/styles.sass */
+  92% {
+    background-position: -720px;
+  }
+
+  /* line 127, sass/styles.sass */
   100% {
-    background-position: -360px;
+    background-position: -760px;
   }
 }

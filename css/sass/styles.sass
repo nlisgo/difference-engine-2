@@ -106,16 +106,12 @@
       @if $i != $j
         #{8 * ($m - $i)}%
           background-position: -40px * $m
-      92%
-        background-position: -40px * $m
-      100%
-        background-position: -40px * $m
 
 @for $i from 0 through 9
   @for $j from 0 through 9
     @-webkit-keyframes anim-from-#{$i}-to-#{$j}-carry
       $k: $j
-      @if $i > $j
+      @if $i >= $j
         $k: $j + 10
       $m: $i
       @for $l from 0 through 9
@@ -123,7 +119,7 @@
           $m: $i + $l
       0%
         background-position: -40px * $i
-      @if $i != $j
+      @if ($m - $i) > 0
         #{8 * ($m - $i)}%
           background-position: -40px * $m
       92%
