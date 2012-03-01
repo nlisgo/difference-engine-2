@@ -112,6 +112,14 @@
   -o-animation-name: anim-from-0-to-0-carry;
   animation-name: anim-from-0-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-0.carry1 {
+  -webkit-animation-name: anim-from-0-to-0-carry1;
+  -moz-animation-name: anim-from-0-to-0-carry1;
+  -ms-animation-name: anim-from-0-to-0-carry1;
+  -o-animation-name: anim-from-0-to-0-carry1;
+  animation-name: anim-from-0-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-1 {
   background-position: -40px;
@@ -133,6 +141,14 @@
   -ms-animation-name: anim-from-0-to-1-carry;
   -o-animation-name: anim-from-0-to-1-carry;
   animation-name: anim-from-0-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-1.carry1 {
+  -webkit-animation-name: anim-from-0-to-1-carry1;
+  -moz-animation-name: anim-from-0-to-1-carry1;
+  -ms-animation-name: anim-from-0-to-1-carry1;
+  -o-animation-name: anim-from-0-to-1-carry1;
+  animation-name: anim-from-0-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-2 {
@@ -156,6 +172,14 @@
   -o-animation-name: anim-from-0-to-2-carry;
   animation-name: anim-from-0-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-2.carry1 {
+  -webkit-animation-name: anim-from-0-to-2-carry1;
+  -moz-animation-name: anim-from-0-to-2-carry1;
+  -ms-animation-name: anim-from-0-to-2-carry1;
+  -o-animation-name: anim-from-0-to-2-carry1;
+  animation-name: anim-from-0-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-3 {
   background-position: -120px;
@@ -177,6 +201,14 @@
   -ms-animation-name: anim-from-0-to-3-carry;
   -o-animation-name: anim-from-0-to-3-carry;
   animation-name: anim-from-0-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-3.carry1 {
+  -webkit-animation-name: anim-from-0-to-3-carry1;
+  -moz-animation-name: anim-from-0-to-3-carry1;
+  -ms-animation-name: anim-from-0-to-3-carry1;
+  -o-animation-name: anim-from-0-to-3-carry1;
+  animation-name: anim-from-0-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-4 {
@@ -200,6 +232,14 @@
   -o-animation-name: anim-from-0-to-4-carry;
   animation-name: anim-from-0-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-4.carry1 {
+  -webkit-animation-name: anim-from-0-to-4-carry1;
+  -moz-animation-name: anim-from-0-to-4-carry1;
+  -ms-animation-name: anim-from-0-to-4-carry1;
+  -o-animation-name: anim-from-0-to-4-carry1;
+  animation-name: anim-from-0-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-5 {
   background-position: -200px;
@@ -221,6 +261,14 @@
   -ms-animation-name: anim-from-0-to-5-carry;
   -o-animation-name: anim-from-0-to-5-carry;
   animation-name: anim-from-0-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-5.carry1 {
+  -webkit-animation-name: anim-from-0-to-5-carry1;
+  -moz-animation-name: anim-from-0-to-5-carry1;
+  -ms-animation-name: anim-from-0-to-5-carry1;
+  -o-animation-name: anim-from-0-to-5-carry1;
+  animation-name: anim-from-0-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-6 {
@@ -244,6 +292,14 @@
   -o-animation-name: anim-from-0-to-6-carry;
   animation-name: anim-from-0-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-6.carry1 {
+  -webkit-animation-name: anim-from-0-to-6-carry1;
+  -moz-animation-name: anim-from-0-to-6-carry1;
+  -ms-animation-name: anim-from-0-to-6-carry1;
+  -o-animation-name: anim-from-0-to-6-carry1;
+  animation-name: anim-from-0-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-7 {
   background-position: -280px;
@@ -265,6 +321,14 @@
   -ms-animation-name: anim-from-0-to-7-carry;
   -o-animation-name: anim-from-0-to-7-carry;
   animation-name: anim-from-0-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-7.carry1 {
+  -webkit-animation-name: anim-from-0-to-7-carry1;
+  -moz-animation-name: anim-from-0-to-7-carry1;
+  -ms-animation-name: anim-from-0-to-7-carry1;
+  -o-animation-name: anim-from-0-to-7-carry1;
+  animation-name: anim-from-0-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-8 {
@@ -288,6 +352,14 @@
   -o-animation-name: anim-from-0-to-8-carry;
   animation-name: anim-from-0-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-8.carry1 {
+  -webkit-animation-name: anim-from-0-to-8-carry1;
+  -moz-animation-name: anim-from-0-to-8-carry1;
+  -ms-animation-name: anim-from-0-to-8-carry1;
+  -o-animation-name: anim-from-0-to-8-carry1;
+  animation-name: anim-from-0-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-0-to-9 {
   background-position: -360px;
@@ -309,6 +381,14 @@
   -ms-animation-name: anim-from-0-to-9-carry;
   -o-animation-name: anim-from-0-to-9-carry;
   animation-name: anim-from-0-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-0-to-9.carry1 {
+  -webkit-animation-name: anim-from-0-to-9-carry1;
+  -moz-animation-name: anim-from-0-to-9-carry1;
+  -ms-animation-name: anim-from-0-to-9-carry1;
+  -o-animation-name: anim-from-0-to-9-carry1;
+  animation-name: anim-from-0-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-0 {
@@ -332,6 +412,14 @@
   -o-animation-name: anim-from-1-to-0-carry;
   animation-name: anim-from-1-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-0.carry1 {
+  -webkit-animation-name: anim-from-1-to-0-carry1;
+  -moz-animation-name: anim-from-1-to-0-carry1;
+  -ms-animation-name: anim-from-1-to-0-carry1;
+  -o-animation-name: anim-from-1-to-0-carry1;
+  animation-name: anim-from-1-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-1 {
   background-position: -40px;
@@ -353,6 +441,14 @@
   -ms-animation-name: anim-from-1-to-1-carry;
   -o-animation-name: anim-from-1-to-1-carry;
   animation-name: anim-from-1-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-1.carry1 {
+  -webkit-animation-name: anim-from-1-to-1-carry1;
+  -moz-animation-name: anim-from-1-to-1-carry1;
+  -ms-animation-name: anim-from-1-to-1-carry1;
+  -o-animation-name: anim-from-1-to-1-carry1;
+  animation-name: anim-from-1-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-2 {
@@ -376,6 +472,14 @@
   -o-animation-name: anim-from-1-to-2-carry;
   animation-name: anim-from-1-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-2.carry1 {
+  -webkit-animation-name: anim-from-1-to-2-carry1;
+  -moz-animation-name: anim-from-1-to-2-carry1;
+  -ms-animation-name: anim-from-1-to-2-carry1;
+  -o-animation-name: anim-from-1-to-2-carry1;
+  animation-name: anim-from-1-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-3 {
   background-position: -120px;
@@ -397,6 +501,14 @@
   -ms-animation-name: anim-from-1-to-3-carry;
   -o-animation-name: anim-from-1-to-3-carry;
   animation-name: anim-from-1-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-3.carry1 {
+  -webkit-animation-name: anim-from-1-to-3-carry1;
+  -moz-animation-name: anim-from-1-to-3-carry1;
+  -ms-animation-name: anim-from-1-to-3-carry1;
+  -o-animation-name: anim-from-1-to-3-carry1;
+  animation-name: anim-from-1-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-4 {
@@ -420,6 +532,14 @@
   -o-animation-name: anim-from-1-to-4-carry;
   animation-name: anim-from-1-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-4.carry1 {
+  -webkit-animation-name: anim-from-1-to-4-carry1;
+  -moz-animation-name: anim-from-1-to-4-carry1;
+  -ms-animation-name: anim-from-1-to-4-carry1;
+  -o-animation-name: anim-from-1-to-4-carry1;
+  animation-name: anim-from-1-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-5 {
   background-position: -200px;
@@ -441,6 +561,14 @@
   -ms-animation-name: anim-from-1-to-5-carry;
   -o-animation-name: anim-from-1-to-5-carry;
   animation-name: anim-from-1-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-5.carry1 {
+  -webkit-animation-name: anim-from-1-to-5-carry1;
+  -moz-animation-name: anim-from-1-to-5-carry1;
+  -ms-animation-name: anim-from-1-to-5-carry1;
+  -o-animation-name: anim-from-1-to-5-carry1;
+  animation-name: anim-from-1-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-6 {
@@ -464,6 +592,14 @@
   -o-animation-name: anim-from-1-to-6-carry;
   animation-name: anim-from-1-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-6.carry1 {
+  -webkit-animation-name: anim-from-1-to-6-carry1;
+  -moz-animation-name: anim-from-1-to-6-carry1;
+  -ms-animation-name: anim-from-1-to-6-carry1;
+  -o-animation-name: anim-from-1-to-6-carry1;
+  animation-name: anim-from-1-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-7 {
   background-position: -280px;
@@ -485,6 +621,14 @@
   -ms-animation-name: anim-from-1-to-7-carry;
   -o-animation-name: anim-from-1-to-7-carry;
   animation-name: anim-from-1-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-7.carry1 {
+  -webkit-animation-name: anim-from-1-to-7-carry1;
+  -moz-animation-name: anim-from-1-to-7-carry1;
+  -ms-animation-name: anim-from-1-to-7-carry1;
+  -o-animation-name: anim-from-1-to-7-carry1;
+  animation-name: anim-from-1-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-8 {
@@ -508,6 +652,14 @@
   -o-animation-name: anim-from-1-to-8-carry;
   animation-name: anim-from-1-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-8.carry1 {
+  -webkit-animation-name: anim-from-1-to-8-carry1;
+  -moz-animation-name: anim-from-1-to-8-carry1;
+  -ms-animation-name: anim-from-1-to-8-carry1;
+  -o-animation-name: anim-from-1-to-8-carry1;
+  animation-name: anim-from-1-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-1-to-9 {
   background-position: -360px;
@@ -529,6 +681,14 @@
   -ms-animation-name: anim-from-1-to-9-carry;
   -o-animation-name: anim-from-1-to-9-carry;
   animation-name: anim-from-1-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-1-to-9.carry1 {
+  -webkit-animation-name: anim-from-1-to-9-carry1;
+  -moz-animation-name: anim-from-1-to-9-carry1;
+  -ms-animation-name: anim-from-1-to-9-carry1;
+  -o-animation-name: anim-from-1-to-9-carry1;
+  animation-name: anim-from-1-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-0 {
@@ -552,6 +712,14 @@
   -o-animation-name: anim-from-2-to-0-carry;
   animation-name: anim-from-2-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-0.carry1 {
+  -webkit-animation-name: anim-from-2-to-0-carry1;
+  -moz-animation-name: anim-from-2-to-0-carry1;
+  -ms-animation-name: anim-from-2-to-0-carry1;
+  -o-animation-name: anim-from-2-to-0-carry1;
+  animation-name: anim-from-2-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-1 {
   background-position: -440px;
@@ -573,6 +741,14 @@
   -ms-animation-name: anim-from-2-to-1-carry;
   -o-animation-name: anim-from-2-to-1-carry;
   animation-name: anim-from-2-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-1.carry1 {
+  -webkit-animation-name: anim-from-2-to-1-carry1;
+  -moz-animation-name: anim-from-2-to-1-carry1;
+  -ms-animation-name: anim-from-2-to-1-carry1;
+  -o-animation-name: anim-from-2-to-1-carry1;
+  animation-name: anim-from-2-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-2 {
@@ -596,6 +772,14 @@
   -o-animation-name: anim-from-2-to-2-carry;
   animation-name: anim-from-2-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-2.carry1 {
+  -webkit-animation-name: anim-from-2-to-2-carry1;
+  -moz-animation-name: anim-from-2-to-2-carry1;
+  -ms-animation-name: anim-from-2-to-2-carry1;
+  -o-animation-name: anim-from-2-to-2-carry1;
+  animation-name: anim-from-2-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-3 {
   background-position: -120px;
@@ -617,6 +801,14 @@
   -ms-animation-name: anim-from-2-to-3-carry;
   -o-animation-name: anim-from-2-to-3-carry;
   animation-name: anim-from-2-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-3.carry1 {
+  -webkit-animation-name: anim-from-2-to-3-carry1;
+  -moz-animation-name: anim-from-2-to-3-carry1;
+  -ms-animation-name: anim-from-2-to-3-carry1;
+  -o-animation-name: anim-from-2-to-3-carry1;
+  animation-name: anim-from-2-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-4 {
@@ -640,6 +832,14 @@
   -o-animation-name: anim-from-2-to-4-carry;
   animation-name: anim-from-2-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-4.carry1 {
+  -webkit-animation-name: anim-from-2-to-4-carry1;
+  -moz-animation-name: anim-from-2-to-4-carry1;
+  -ms-animation-name: anim-from-2-to-4-carry1;
+  -o-animation-name: anim-from-2-to-4-carry1;
+  animation-name: anim-from-2-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-5 {
   background-position: -200px;
@@ -661,6 +861,14 @@
   -ms-animation-name: anim-from-2-to-5-carry;
   -o-animation-name: anim-from-2-to-5-carry;
   animation-name: anim-from-2-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-5.carry1 {
+  -webkit-animation-name: anim-from-2-to-5-carry1;
+  -moz-animation-name: anim-from-2-to-5-carry1;
+  -ms-animation-name: anim-from-2-to-5-carry1;
+  -o-animation-name: anim-from-2-to-5-carry1;
+  animation-name: anim-from-2-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-6 {
@@ -684,6 +892,14 @@
   -o-animation-name: anim-from-2-to-6-carry;
   animation-name: anim-from-2-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-6.carry1 {
+  -webkit-animation-name: anim-from-2-to-6-carry1;
+  -moz-animation-name: anim-from-2-to-6-carry1;
+  -ms-animation-name: anim-from-2-to-6-carry1;
+  -o-animation-name: anim-from-2-to-6-carry1;
+  animation-name: anim-from-2-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-7 {
   background-position: -280px;
@@ -705,6 +921,14 @@
   -ms-animation-name: anim-from-2-to-7-carry;
   -o-animation-name: anim-from-2-to-7-carry;
   animation-name: anim-from-2-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-7.carry1 {
+  -webkit-animation-name: anim-from-2-to-7-carry1;
+  -moz-animation-name: anim-from-2-to-7-carry1;
+  -ms-animation-name: anim-from-2-to-7-carry1;
+  -o-animation-name: anim-from-2-to-7-carry1;
+  animation-name: anim-from-2-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-8 {
@@ -728,6 +952,14 @@
   -o-animation-name: anim-from-2-to-8-carry;
   animation-name: anim-from-2-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-8.carry1 {
+  -webkit-animation-name: anim-from-2-to-8-carry1;
+  -moz-animation-name: anim-from-2-to-8-carry1;
+  -ms-animation-name: anim-from-2-to-8-carry1;
+  -o-animation-name: anim-from-2-to-8-carry1;
+  animation-name: anim-from-2-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-2-to-9 {
   background-position: -360px;
@@ -749,6 +981,14 @@
   -ms-animation-name: anim-from-2-to-9-carry;
   -o-animation-name: anim-from-2-to-9-carry;
   animation-name: anim-from-2-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-2-to-9.carry1 {
+  -webkit-animation-name: anim-from-2-to-9-carry1;
+  -moz-animation-name: anim-from-2-to-9-carry1;
+  -ms-animation-name: anim-from-2-to-9-carry1;
+  -o-animation-name: anim-from-2-to-9-carry1;
+  animation-name: anim-from-2-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-0 {
@@ -772,6 +1012,14 @@
   -o-animation-name: anim-from-3-to-0-carry;
   animation-name: anim-from-3-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-0.carry1 {
+  -webkit-animation-name: anim-from-3-to-0-carry1;
+  -moz-animation-name: anim-from-3-to-0-carry1;
+  -ms-animation-name: anim-from-3-to-0-carry1;
+  -o-animation-name: anim-from-3-to-0-carry1;
+  animation-name: anim-from-3-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-1 {
   background-position: -440px;
@@ -793,6 +1041,14 @@
   -ms-animation-name: anim-from-3-to-1-carry;
   -o-animation-name: anim-from-3-to-1-carry;
   animation-name: anim-from-3-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-1.carry1 {
+  -webkit-animation-name: anim-from-3-to-1-carry1;
+  -moz-animation-name: anim-from-3-to-1-carry1;
+  -ms-animation-name: anim-from-3-to-1-carry1;
+  -o-animation-name: anim-from-3-to-1-carry1;
+  animation-name: anim-from-3-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-2 {
@@ -816,6 +1072,14 @@
   -o-animation-name: anim-from-3-to-2-carry;
   animation-name: anim-from-3-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-2.carry1 {
+  -webkit-animation-name: anim-from-3-to-2-carry1;
+  -moz-animation-name: anim-from-3-to-2-carry1;
+  -ms-animation-name: anim-from-3-to-2-carry1;
+  -o-animation-name: anim-from-3-to-2-carry1;
+  animation-name: anim-from-3-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-3 {
   background-position: -120px;
@@ -837,6 +1101,14 @@
   -ms-animation-name: anim-from-3-to-3-carry;
   -o-animation-name: anim-from-3-to-3-carry;
   animation-name: anim-from-3-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-3.carry1 {
+  -webkit-animation-name: anim-from-3-to-3-carry1;
+  -moz-animation-name: anim-from-3-to-3-carry1;
+  -ms-animation-name: anim-from-3-to-3-carry1;
+  -o-animation-name: anim-from-3-to-3-carry1;
+  animation-name: anim-from-3-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-4 {
@@ -860,6 +1132,14 @@
   -o-animation-name: anim-from-3-to-4-carry;
   animation-name: anim-from-3-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-4.carry1 {
+  -webkit-animation-name: anim-from-3-to-4-carry1;
+  -moz-animation-name: anim-from-3-to-4-carry1;
+  -ms-animation-name: anim-from-3-to-4-carry1;
+  -o-animation-name: anim-from-3-to-4-carry1;
+  animation-name: anim-from-3-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-5 {
   background-position: -200px;
@@ -881,6 +1161,14 @@
   -ms-animation-name: anim-from-3-to-5-carry;
   -o-animation-name: anim-from-3-to-5-carry;
   animation-name: anim-from-3-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-5.carry1 {
+  -webkit-animation-name: anim-from-3-to-5-carry1;
+  -moz-animation-name: anim-from-3-to-5-carry1;
+  -ms-animation-name: anim-from-3-to-5-carry1;
+  -o-animation-name: anim-from-3-to-5-carry1;
+  animation-name: anim-from-3-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-6 {
@@ -904,6 +1192,14 @@
   -o-animation-name: anim-from-3-to-6-carry;
   animation-name: anim-from-3-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-6.carry1 {
+  -webkit-animation-name: anim-from-3-to-6-carry1;
+  -moz-animation-name: anim-from-3-to-6-carry1;
+  -ms-animation-name: anim-from-3-to-6-carry1;
+  -o-animation-name: anim-from-3-to-6-carry1;
+  animation-name: anim-from-3-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-7 {
   background-position: -280px;
@@ -925,6 +1221,14 @@
   -ms-animation-name: anim-from-3-to-7-carry;
   -o-animation-name: anim-from-3-to-7-carry;
   animation-name: anim-from-3-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-7.carry1 {
+  -webkit-animation-name: anim-from-3-to-7-carry1;
+  -moz-animation-name: anim-from-3-to-7-carry1;
+  -ms-animation-name: anim-from-3-to-7-carry1;
+  -o-animation-name: anim-from-3-to-7-carry1;
+  animation-name: anim-from-3-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-8 {
@@ -948,6 +1252,14 @@
   -o-animation-name: anim-from-3-to-8-carry;
   animation-name: anim-from-3-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-8.carry1 {
+  -webkit-animation-name: anim-from-3-to-8-carry1;
+  -moz-animation-name: anim-from-3-to-8-carry1;
+  -ms-animation-name: anim-from-3-to-8-carry1;
+  -o-animation-name: anim-from-3-to-8-carry1;
+  animation-name: anim-from-3-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-3-to-9 {
   background-position: -360px;
@@ -969,6 +1281,14 @@
   -ms-animation-name: anim-from-3-to-9-carry;
   -o-animation-name: anim-from-3-to-9-carry;
   animation-name: anim-from-3-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-3-to-9.carry1 {
+  -webkit-animation-name: anim-from-3-to-9-carry1;
+  -moz-animation-name: anim-from-3-to-9-carry1;
+  -ms-animation-name: anim-from-3-to-9-carry1;
+  -o-animation-name: anim-from-3-to-9-carry1;
+  animation-name: anim-from-3-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-0 {
@@ -992,6 +1312,14 @@
   -o-animation-name: anim-from-4-to-0-carry;
   animation-name: anim-from-4-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-0.carry1 {
+  -webkit-animation-name: anim-from-4-to-0-carry1;
+  -moz-animation-name: anim-from-4-to-0-carry1;
+  -ms-animation-name: anim-from-4-to-0-carry1;
+  -o-animation-name: anim-from-4-to-0-carry1;
+  animation-name: anim-from-4-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-1 {
   background-position: -440px;
@@ -1013,6 +1341,14 @@
   -ms-animation-name: anim-from-4-to-1-carry;
   -o-animation-name: anim-from-4-to-1-carry;
   animation-name: anim-from-4-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-1.carry1 {
+  -webkit-animation-name: anim-from-4-to-1-carry1;
+  -moz-animation-name: anim-from-4-to-1-carry1;
+  -ms-animation-name: anim-from-4-to-1-carry1;
+  -o-animation-name: anim-from-4-to-1-carry1;
+  animation-name: anim-from-4-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-2 {
@@ -1036,6 +1372,14 @@
   -o-animation-name: anim-from-4-to-2-carry;
   animation-name: anim-from-4-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-2.carry1 {
+  -webkit-animation-name: anim-from-4-to-2-carry1;
+  -moz-animation-name: anim-from-4-to-2-carry1;
+  -ms-animation-name: anim-from-4-to-2-carry1;
+  -o-animation-name: anim-from-4-to-2-carry1;
+  animation-name: anim-from-4-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-3 {
   background-position: -520px;
@@ -1057,6 +1401,14 @@
   -ms-animation-name: anim-from-4-to-3-carry;
   -o-animation-name: anim-from-4-to-3-carry;
   animation-name: anim-from-4-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-3.carry1 {
+  -webkit-animation-name: anim-from-4-to-3-carry1;
+  -moz-animation-name: anim-from-4-to-3-carry1;
+  -ms-animation-name: anim-from-4-to-3-carry1;
+  -o-animation-name: anim-from-4-to-3-carry1;
+  animation-name: anim-from-4-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-4 {
@@ -1080,6 +1432,14 @@
   -o-animation-name: anim-from-4-to-4-carry;
   animation-name: anim-from-4-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-4.carry1 {
+  -webkit-animation-name: anim-from-4-to-4-carry1;
+  -moz-animation-name: anim-from-4-to-4-carry1;
+  -ms-animation-name: anim-from-4-to-4-carry1;
+  -o-animation-name: anim-from-4-to-4-carry1;
+  animation-name: anim-from-4-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-5 {
   background-position: -200px;
@@ -1101,6 +1461,14 @@
   -ms-animation-name: anim-from-4-to-5-carry;
   -o-animation-name: anim-from-4-to-5-carry;
   animation-name: anim-from-4-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-5.carry1 {
+  -webkit-animation-name: anim-from-4-to-5-carry1;
+  -moz-animation-name: anim-from-4-to-5-carry1;
+  -ms-animation-name: anim-from-4-to-5-carry1;
+  -o-animation-name: anim-from-4-to-5-carry1;
+  animation-name: anim-from-4-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-6 {
@@ -1124,6 +1492,14 @@
   -o-animation-name: anim-from-4-to-6-carry;
   animation-name: anim-from-4-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-6.carry1 {
+  -webkit-animation-name: anim-from-4-to-6-carry1;
+  -moz-animation-name: anim-from-4-to-6-carry1;
+  -ms-animation-name: anim-from-4-to-6-carry1;
+  -o-animation-name: anim-from-4-to-6-carry1;
+  animation-name: anim-from-4-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-7 {
   background-position: -280px;
@@ -1145,6 +1521,14 @@
   -ms-animation-name: anim-from-4-to-7-carry;
   -o-animation-name: anim-from-4-to-7-carry;
   animation-name: anim-from-4-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-7.carry1 {
+  -webkit-animation-name: anim-from-4-to-7-carry1;
+  -moz-animation-name: anim-from-4-to-7-carry1;
+  -ms-animation-name: anim-from-4-to-7-carry1;
+  -o-animation-name: anim-from-4-to-7-carry1;
+  animation-name: anim-from-4-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-8 {
@@ -1168,6 +1552,14 @@
   -o-animation-name: anim-from-4-to-8-carry;
   animation-name: anim-from-4-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-8.carry1 {
+  -webkit-animation-name: anim-from-4-to-8-carry1;
+  -moz-animation-name: anim-from-4-to-8-carry1;
+  -ms-animation-name: anim-from-4-to-8-carry1;
+  -o-animation-name: anim-from-4-to-8-carry1;
+  animation-name: anim-from-4-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-4-to-9 {
   background-position: -360px;
@@ -1189,6 +1581,14 @@
   -ms-animation-name: anim-from-4-to-9-carry;
   -o-animation-name: anim-from-4-to-9-carry;
   animation-name: anim-from-4-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-4-to-9.carry1 {
+  -webkit-animation-name: anim-from-4-to-9-carry1;
+  -moz-animation-name: anim-from-4-to-9-carry1;
+  -ms-animation-name: anim-from-4-to-9-carry1;
+  -o-animation-name: anim-from-4-to-9-carry1;
+  animation-name: anim-from-4-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-0 {
@@ -1212,6 +1612,14 @@
   -o-animation-name: anim-from-5-to-0-carry;
   animation-name: anim-from-5-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-0.carry1 {
+  -webkit-animation-name: anim-from-5-to-0-carry1;
+  -moz-animation-name: anim-from-5-to-0-carry1;
+  -ms-animation-name: anim-from-5-to-0-carry1;
+  -o-animation-name: anim-from-5-to-0-carry1;
+  animation-name: anim-from-5-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-1 {
   background-position: -440px;
@@ -1233,6 +1641,14 @@
   -ms-animation-name: anim-from-5-to-1-carry;
   -o-animation-name: anim-from-5-to-1-carry;
   animation-name: anim-from-5-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-1.carry1 {
+  -webkit-animation-name: anim-from-5-to-1-carry1;
+  -moz-animation-name: anim-from-5-to-1-carry1;
+  -ms-animation-name: anim-from-5-to-1-carry1;
+  -o-animation-name: anim-from-5-to-1-carry1;
+  animation-name: anim-from-5-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-2 {
@@ -1256,6 +1672,14 @@
   -o-animation-name: anim-from-5-to-2-carry;
   animation-name: anim-from-5-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-2.carry1 {
+  -webkit-animation-name: anim-from-5-to-2-carry1;
+  -moz-animation-name: anim-from-5-to-2-carry1;
+  -ms-animation-name: anim-from-5-to-2-carry1;
+  -o-animation-name: anim-from-5-to-2-carry1;
+  animation-name: anim-from-5-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-3 {
   background-position: -520px;
@@ -1277,6 +1701,14 @@
   -ms-animation-name: anim-from-5-to-3-carry;
   -o-animation-name: anim-from-5-to-3-carry;
   animation-name: anim-from-5-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-3.carry1 {
+  -webkit-animation-name: anim-from-5-to-3-carry1;
+  -moz-animation-name: anim-from-5-to-3-carry1;
+  -ms-animation-name: anim-from-5-to-3-carry1;
+  -o-animation-name: anim-from-5-to-3-carry1;
+  animation-name: anim-from-5-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-4 {
@@ -1300,6 +1732,14 @@
   -o-animation-name: anim-from-5-to-4-carry;
   animation-name: anim-from-5-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-4.carry1 {
+  -webkit-animation-name: anim-from-5-to-4-carry1;
+  -moz-animation-name: anim-from-5-to-4-carry1;
+  -ms-animation-name: anim-from-5-to-4-carry1;
+  -o-animation-name: anim-from-5-to-4-carry1;
+  animation-name: anim-from-5-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-5 {
   background-position: -200px;
@@ -1321,6 +1761,14 @@
   -ms-animation-name: anim-from-5-to-5-carry;
   -o-animation-name: anim-from-5-to-5-carry;
   animation-name: anim-from-5-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-5.carry1 {
+  -webkit-animation-name: anim-from-5-to-5-carry1;
+  -moz-animation-name: anim-from-5-to-5-carry1;
+  -ms-animation-name: anim-from-5-to-5-carry1;
+  -o-animation-name: anim-from-5-to-5-carry1;
+  animation-name: anim-from-5-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-6 {
@@ -1344,6 +1792,14 @@
   -o-animation-name: anim-from-5-to-6-carry;
   animation-name: anim-from-5-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-6.carry1 {
+  -webkit-animation-name: anim-from-5-to-6-carry1;
+  -moz-animation-name: anim-from-5-to-6-carry1;
+  -ms-animation-name: anim-from-5-to-6-carry1;
+  -o-animation-name: anim-from-5-to-6-carry1;
+  animation-name: anim-from-5-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-7 {
   background-position: -280px;
@@ -1365,6 +1821,14 @@
   -ms-animation-name: anim-from-5-to-7-carry;
   -o-animation-name: anim-from-5-to-7-carry;
   animation-name: anim-from-5-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-7.carry1 {
+  -webkit-animation-name: anim-from-5-to-7-carry1;
+  -moz-animation-name: anim-from-5-to-7-carry1;
+  -ms-animation-name: anim-from-5-to-7-carry1;
+  -o-animation-name: anim-from-5-to-7-carry1;
+  animation-name: anim-from-5-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-8 {
@@ -1388,6 +1852,14 @@
   -o-animation-name: anim-from-5-to-8-carry;
   animation-name: anim-from-5-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-8.carry1 {
+  -webkit-animation-name: anim-from-5-to-8-carry1;
+  -moz-animation-name: anim-from-5-to-8-carry1;
+  -ms-animation-name: anim-from-5-to-8-carry1;
+  -o-animation-name: anim-from-5-to-8-carry1;
+  animation-name: anim-from-5-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-5-to-9 {
   background-position: -360px;
@@ -1409,6 +1881,14 @@
   -ms-animation-name: anim-from-5-to-9-carry;
   -o-animation-name: anim-from-5-to-9-carry;
   animation-name: anim-from-5-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-5-to-9.carry1 {
+  -webkit-animation-name: anim-from-5-to-9-carry1;
+  -moz-animation-name: anim-from-5-to-9-carry1;
+  -ms-animation-name: anim-from-5-to-9-carry1;
+  -o-animation-name: anim-from-5-to-9-carry1;
+  animation-name: anim-from-5-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-0 {
@@ -1432,6 +1912,14 @@
   -o-animation-name: anim-from-6-to-0-carry;
   animation-name: anim-from-6-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-0.carry1 {
+  -webkit-animation-name: anim-from-6-to-0-carry1;
+  -moz-animation-name: anim-from-6-to-0-carry1;
+  -ms-animation-name: anim-from-6-to-0-carry1;
+  -o-animation-name: anim-from-6-to-0-carry1;
+  animation-name: anim-from-6-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-1 {
   background-position: -440px;
@@ -1453,6 +1941,14 @@
   -ms-animation-name: anim-from-6-to-1-carry;
   -o-animation-name: anim-from-6-to-1-carry;
   animation-name: anim-from-6-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-1.carry1 {
+  -webkit-animation-name: anim-from-6-to-1-carry1;
+  -moz-animation-name: anim-from-6-to-1-carry1;
+  -ms-animation-name: anim-from-6-to-1-carry1;
+  -o-animation-name: anim-from-6-to-1-carry1;
+  animation-name: anim-from-6-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-2 {
@@ -1476,6 +1972,14 @@
   -o-animation-name: anim-from-6-to-2-carry;
   animation-name: anim-from-6-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-2.carry1 {
+  -webkit-animation-name: anim-from-6-to-2-carry1;
+  -moz-animation-name: anim-from-6-to-2-carry1;
+  -ms-animation-name: anim-from-6-to-2-carry1;
+  -o-animation-name: anim-from-6-to-2-carry1;
+  animation-name: anim-from-6-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-3 {
   background-position: -520px;
@@ -1497,6 +2001,14 @@
   -ms-animation-name: anim-from-6-to-3-carry;
   -o-animation-name: anim-from-6-to-3-carry;
   animation-name: anim-from-6-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-3.carry1 {
+  -webkit-animation-name: anim-from-6-to-3-carry1;
+  -moz-animation-name: anim-from-6-to-3-carry1;
+  -ms-animation-name: anim-from-6-to-3-carry1;
+  -o-animation-name: anim-from-6-to-3-carry1;
+  animation-name: anim-from-6-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-4 {
@@ -1520,6 +2032,14 @@
   -o-animation-name: anim-from-6-to-4-carry;
   animation-name: anim-from-6-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-4.carry1 {
+  -webkit-animation-name: anim-from-6-to-4-carry1;
+  -moz-animation-name: anim-from-6-to-4-carry1;
+  -ms-animation-name: anim-from-6-to-4-carry1;
+  -o-animation-name: anim-from-6-to-4-carry1;
+  animation-name: anim-from-6-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-5 {
   background-position: -600px;
@@ -1541,6 +2061,14 @@
   -ms-animation-name: anim-from-6-to-5-carry;
   -o-animation-name: anim-from-6-to-5-carry;
   animation-name: anim-from-6-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-5.carry1 {
+  -webkit-animation-name: anim-from-6-to-5-carry1;
+  -moz-animation-name: anim-from-6-to-5-carry1;
+  -ms-animation-name: anim-from-6-to-5-carry1;
+  -o-animation-name: anim-from-6-to-5-carry1;
+  animation-name: anim-from-6-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-6 {
@@ -1564,6 +2092,14 @@
   -o-animation-name: anim-from-6-to-6-carry;
   animation-name: anim-from-6-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-6.carry1 {
+  -webkit-animation-name: anim-from-6-to-6-carry1;
+  -moz-animation-name: anim-from-6-to-6-carry1;
+  -ms-animation-name: anim-from-6-to-6-carry1;
+  -o-animation-name: anim-from-6-to-6-carry1;
+  animation-name: anim-from-6-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-7 {
   background-position: -280px;
@@ -1585,6 +2121,14 @@
   -ms-animation-name: anim-from-6-to-7-carry;
   -o-animation-name: anim-from-6-to-7-carry;
   animation-name: anim-from-6-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-7.carry1 {
+  -webkit-animation-name: anim-from-6-to-7-carry1;
+  -moz-animation-name: anim-from-6-to-7-carry1;
+  -ms-animation-name: anim-from-6-to-7-carry1;
+  -o-animation-name: anim-from-6-to-7-carry1;
+  animation-name: anim-from-6-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-8 {
@@ -1608,6 +2152,14 @@
   -o-animation-name: anim-from-6-to-8-carry;
   animation-name: anim-from-6-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-8.carry1 {
+  -webkit-animation-name: anim-from-6-to-8-carry1;
+  -moz-animation-name: anim-from-6-to-8-carry1;
+  -ms-animation-name: anim-from-6-to-8-carry1;
+  -o-animation-name: anim-from-6-to-8-carry1;
+  animation-name: anim-from-6-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-6-to-9 {
   background-position: -360px;
@@ -1629,6 +2181,14 @@
   -ms-animation-name: anim-from-6-to-9-carry;
   -o-animation-name: anim-from-6-to-9-carry;
   animation-name: anim-from-6-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-6-to-9.carry1 {
+  -webkit-animation-name: anim-from-6-to-9-carry1;
+  -moz-animation-name: anim-from-6-to-9-carry1;
+  -ms-animation-name: anim-from-6-to-9-carry1;
+  -o-animation-name: anim-from-6-to-9-carry1;
+  animation-name: anim-from-6-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-0 {
@@ -1652,6 +2212,14 @@
   -o-animation-name: anim-from-7-to-0-carry;
   animation-name: anim-from-7-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-0.carry1 {
+  -webkit-animation-name: anim-from-7-to-0-carry1;
+  -moz-animation-name: anim-from-7-to-0-carry1;
+  -ms-animation-name: anim-from-7-to-0-carry1;
+  -o-animation-name: anim-from-7-to-0-carry1;
+  animation-name: anim-from-7-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-1 {
   background-position: -440px;
@@ -1673,6 +2241,14 @@
   -ms-animation-name: anim-from-7-to-1-carry;
   -o-animation-name: anim-from-7-to-1-carry;
   animation-name: anim-from-7-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-1.carry1 {
+  -webkit-animation-name: anim-from-7-to-1-carry1;
+  -moz-animation-name: anim-from-7-to-1-carry1;
+  -ms-animation-name: anim-from-7-to-1-carry1;
+  -o-animation-name: anim-from-7-to-1-carry1;
+  animation-name: anim-from-7-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-2 {
@@ -1696,6 +2272,14 @@
   -o-animation-name: anim-from-7-to-2-carry;
   animation-name: anim-from-7-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-2.carry1 {
+  -webkit-animation-name: anim-from-7-to-2-carry1;
+  -moz-animation-name: anim-from-7-to-2-carry1;
+  -ms-animation-name: anim-from-7-to-2-carry1;
+  -o-animation-name: anim-from-7-to-2-carry1;
+  animation-name: anim-from-7-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-3 {
   background-position: -520px;
@@ -1717,6 +2301,14 @@
   -ms-animation-name: anim-from-7-to-3-carry;
   -o-animation-name: anim-from-7-to-3-carry;
   animation-name: anim-from-7-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-3.carry1 {
+  -webkit-animation-name: anim-from-7-to-3-carry1;
+  -moz-animation-name: anim-from-7-to-3-carry1;
+  -ms-animation-name: anim-from-7-to-3-carry1;
+  -o-animation-name: anim-from-7-to-3-carry1;
+  animation-name: anim-from-7-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-4 {
@@ -1740,6 +2332,14 @@
   -o-animation-name: anim-from-7-to-4-carry;
   animation-name: anim-from-7-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-4.carry1 {
+  -webkit-animation-name: anim-from-7-to-4-carry1;
+  -moz-animation-name: anim-from-7-to-4-carry1;
+  -ms-animation-name: anim-from-7-to-4-carry1;
+  -o-animation-name: anim-from-7-to-4-carry1;
+  animation-name: anim-from-7-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-5 {
   background-position: -600px;
@@ -1761,6 +2361,14 @@
   -ms-animation-name: anim-from-7-to-5-carry;
   -o-animation-name: anim-from-7-to-5-carry;
   animation-name: anim-from-7-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-5.carry1 {
+  -webkit-animation-name: anim-from-7-to-5-carry1;
+  -moz-animation-name: anim-from-7-to-5-carry1;
+  -ms-animation-name: anim-from-7-to-5-carry1;
+  -o-animation-name: anim-from-7-to-5-carry1;
+  animation-name: anim-from-7-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-6 {
@@ -1784,6 +2392,14 @@
   -o-animation-name: anim-from-7-to-6-carry;
   animation-name: anim-from-7-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-6.carry1 {
+  -webkit-animation-name: anim-from-7-to-6-carry1;
+  -moz-animation-name: anim-from-7-to-6-carry1;
+  -ms-animation-name: anim-from-7-to-6-carry1;
+  -o-animation-name: anim-from-7-to-6-carry1;
+  animation-name: anim-from-7-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-7 {
   background-position: -280px;
@@ -1805,6 +2421,14 @@
   -ms-animation-name: anim-from-7-to-7-carry;
   -o-animation-name: anim-from-7-to-7-carry;
   animation-name: anim-from-7-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-7.carry1 {
+  -webkit-animation-name: anim-from-7-to-7-carry1;
+  -moz-animation-name: anim-from-7-to-7-carry1;
+  -ms-animation-name: anim-from-7-to-7-carry1;
+  -o-animation-name: anim-from-7-to-7-carry1;
+  animation-name: anim-from-7-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-8 {
@@ -1828,6 +2452,14 @@
   -o-animation-name: anim-from-7-to-8-carry;
   animation-name: anim-from-7-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-8.carry1 {
+  -webkit-animation-name: anim-from-7-to-8-carry1;
+  -moz-animation-name: anim-from-7-to-8-carry1;
+  -ms-animation-name: anim-from-7-to-8-carry1;
+  -o-animation-name: anim-from-7-to-8-carry1;
+  animation-name: anim-from-7-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-7-to-9 {
   background-position: -360px;
@@ -1849,6 +2481,14 @@
   -ms-animation-name: anim-from-7-to-9-carry;
   -o-animation-name: anim-from-7-to-9-carry;
   animation-name: anim-from-7-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-7-to-9.carry1 {
+  -webkit-animation-name: anim-from-7-to-9-carry1;
+  -moz-animation-name: anim-from-7-to-9-carry1;
+  -ms-animation-name: anim-from-7-to-9-carry1;
+  -o-animation-name: anim-from-7-to-9-carry1;
+  animation-name: anim-from-7-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-0 {
@@ -1872,6 +2512,14 @@
   -o-animation-name: anim-from-8-to-0-carry;
   animation-name: anim-from-8-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-0.carry1 {
+  -webkit-animation-name: anim-from-8-to-0-carry1;
+  -moz-animation-name: anim-from-8-to-0-carry1;
+  -ms-animation-name: anim-from-8-to-0-carry1;
+  -o-animation-name: anim-from-8-to-0-carry1;
+  animation-name: anim-from-8-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-1 {
   background-position: -440px;
@@ -1893,6 +2541,14 @@
   -ms-animation-name: anim-from-8-to-1-carry;
   -o-animation-name: anim-from-8-to-1-carry;
   animation-name: anim-from-8-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-1.carry1 {
+  -webkit-animation-name: anim-from-8-to-1-carry1;
+  -moz-animation-name: anim-from-8-to-1-carry1;
+  -ms-animation-name: anim-from-8-to-1-carry1;
+  -o-animation-name: anim-from-8-to-1-carry1;
+  animation-name: anim-from-8-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-2 {
@@ -1916,6 +2572,14 @@
   -o-animation-name: anim-from-8-to-2-carry;
   animation-name: anim-from-8-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-2.carry1 {
+  -webkit-animation-name: anim-from-8-to-2-carry1;
+  -moz-animation-name: anim-from-8-to-2-carry1;
+  -ms-animation-name: anim-from-8-to-2-carry1;
+  -o-animation-name: anim-from-8-to-2-carry1;
+  animation-name: anim-from-8-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-3 {
   background-position: -520px;
@@ -1937,6 +2601,14 @@
   -ms-animation-name: anim-from-8-to-3-carry;
   -o-animation-name: anim-from-8-to-3-carry;
   animation-name: anim-from-8-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-3.carry1 {
+  -webkit-animation-name: anim-from-8-to-3-carry1;
+  -moz-animation-name: anim-from-8-to-3-carry1;
+  -ms-animation-name: anim-from-8-to-3-carry1;
+  -o-animation-name: anim-from-8-to-3-carry1;
+  animation-name: anim-from-8-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-4 {
@@ -1960,6 +2632,14 @@
   -o-animation-name: anim-from-8-to-4-carry;
   animation-name: anim-from-8-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-4.carry1 {
+  -webkit-animation-name: anim-from-8-to-4-carry1;
+  -moz-animation-name: anim-from-8-to-4-carry1;
+  -ms-animation-name: anim-from-8-to-4-carry1;
+  -o-animation-name: anim-from-8-to-4-carry1;
+  animation-name: anim-from-8-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-5 {
   background-position: -600px;
@@ -1981,6 +2661,14 @@
   -ms-animation-name: anim-from-8-to-5-carry;
   -o-animation-name: anim-from-8-to-5-carry;
   animation-name: anim-from-8-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-5.carry1 {
+  -webkit-animation-name: anim-from-8-to-5-carry1;
+  -moz-animation-name: anim-from-8-to-5-carry1;
+  -ms-animation-name: anim-from-8-to-5-carry1;
+  -o-animation-name: anim-from-8-to-5-carry1;
+  animation-name: anim-from-8-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-6 {
@@ -2004,6 +2692,14 @@
   -o-animation-name: anim-from-8-to-6-carry;
   animation-name: anim-from-8-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-6.carry1 {
+  -webkit-animation-name: anim-from-8-to-6-carry1;
+  -moz-animation-name: anim-from-8-to-6-carry1;
+  -ms-animation-name: anim-from-8-to-6-carry1;
+  -o-animation-name: anim-from-8-to-6-carry1;
+  animation-name: anim-from-8-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-7 {
   background-position: -680px;
@@ -2025,6 +2721,14 @@
   -ms-animation-name: anim-from-8-to-7-carry;
   -o-animation-name: anim-from-8-to-7-carry;
   animation-name: anim-from-8-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-7.carry1 {
+  -webkit-animation-name: anim-from-8-to-7-carry1;
+  -moz-animation-name: anim-from-8-to-7-carry1;
+  -ms-animation-name: anim-from-8-to-7-carry1;
+  -o-animation-name: anim-from-8-to-7-carry1;
+  animation-name: anim-from-8-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-8 {
@@ -2048,6 +2752,14 @@
   -o-animation-name: anim-from-8-to-8-carry;
   animation-name: anim-from-8-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-8.carry1 {
+  -webkit-animation-name: anim-from-8-to-8-carry1;
+  -moz-animation-name: anim-from-8-to-8-carry1;
+  -ms-animation-name: anim-from-8-to-8-carry1;
+  -o-animation-name: anim-from-8-to-8-carry1;
+  animation-name: anim-from-8-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-8-to-9 {
   background-position: -360px;
@@ -2069,6 +2781,14 @@
   -ms-animation-name: anim-from-8-to-9-carry;
   -o-animation-name: anim-from-8-to-9-carry;
   animation-name: anim-from-8-to-9-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-8-to-9.carry1 {
+  -webkit-animation-name: anim-from-8-to-9-carry1;
+  -moz-animation-name: anim-from-8-to-9-carry1;
+  -ms-animation-name: anim-from-8-to-9-carry1;
+  -o-animation-name: anim-from-8-to-9-carry1;
+  animation-name: anim-from-8-to-9-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-0 {
@@ -2092,6 +2812,14 @@
   -o-animation-name: anim-from-9-to-0-carry;
   animation-name: anim-from-9-to-0-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-0.carry1 {
+  -webkit-animation-name: anim-from-9-to-0-carry1;
+  -moz-animation-name: anim-from-9-to-0-carry1;
+  -ms-animation-name: anim-from-9-to-0-carry1;
+  -o-animation-name: anim-from-9-to-0-carry1;
+  animation-name: anim-from-9-to-0-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-1 {
   background-position: -440px;
@@ -2113,6 +2841,14 @@
   -ms-animation-name: anim-from-9-to-1-carry;
   -o-animation-name: anim-from-9-to-1-carry;
   animation-name: anim-from-9-to-1-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-1.carry1 {
+  -webkit-animation-name: anim-from-9-to-1-carry1;
+  -moz-animation-name: anim-from-9-to-1-carry1;
+  -ms-animation-name: anim-from-9-to-1-carry1;
+  -o-animation-name: anim-from-9-to-1-carry1;
+  animation-name: anim-from-9-to-1-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-2 {
@@ -2136,6 +2872,14 @@
   -o-animation-name: anim-from-9-to-2-carry;
   animation-name: anim-from-9-to-2-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-2.carry1 {
+  -webkit-animation-name: anim-from-9-to-2-carry1;
+  -moz-animation-name: anim-from-9-to-2-carry1;
+  -ms-animation-name: anim-from-9-to-2-carry1;
+  -o-animation-name: anim-from-9-to-2-carry1;
+  animation-name: anim-from-9-to-2-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-3 {
   background-position: -520px;
@@ -2157,6 +2901,14 @@
   -ms-animation-name: anim-from-9-to-3-carry;
   -o-animation-name: anim-from-9-to-3-carry;
   animation-name: anim-from-9-to-3-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-3.carry1 {
+  -webkit-animation-name: anim-from-9-to-3-carry1;
+  -moz-animation-name: anim-from-9-to-3-carry1;
+  -ms-animation-name: anim-from-9-to-3-carry1;
+  -o-animation-name: anim-from-9-to-3-carry1;
+  animation-name: anim-from-9-to-3-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-4 {
@@ -2180,6 +2932,14 @@
   -o-animation-name: anim-from-9-to-4-carry;
   animation-name: anim-from-9-to-4-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-4.carry1 {
+  -webkit-animation-name: anim-from-9-to-4-carry1;
+  -moz-animation-name: anim-from-9-to-4-carry1;
+  -ms-animation-name: anim-from-9-to-4-carry1;
+  -o-animation-name: anim-from-9-to-4-carry1;
+  animation-name: anim-from-9-to-4-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-5 {
   background-position: -600px;
@@ -2201,6 +2961,14 @@
   -ms-animation-name: anim-from-9-to-5-carry;
   -o-animation-name: anim-from-9-to-5-carry;
   animation-name: anim-from-9-to-5-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-5.carry1 {
+  -webkit-animation-name: anim-from-9-to-5-carry1;
+  -moz-animation-name: anim-from-9-to-5-carry1;
+  -ms-animation-name: anim-from-9-to-5-carry1;
+  -o-animation-name: anim-from-9-to-5-carry1;
+  animation-name: anim-from-9-to-5-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-6 {
@@ -2224,6 +2992,14 @@
   -o-animation-name: anim-from-9-to-6-carry;
   animation-name: anim-from-9-to-6-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-6.carry1 {
+  -webkit-animation-name: anim-from-9-to-6-carry1;
+  -moz-animation-name: anim-from-9-to-6-carry1;
+  -ms-animation-name: anim-from-9-to-6-carry1;
+  -o-animation-name: anim-from-9-to-6-carry1;
+  animation-name: anim-from-9-to-6-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-7 {
   background-position: -680px;
@@ -2245,6 +3021,14 @@
   -ms-animation-name: anim-from-9-to-7-carry;
   -o-animation-name: anim-from-9-to-7-carry;
   animation-name: anim-from-9-to-7-carry;
+}
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-7.carry1 {
+  -webkit-animation-name: anim-from-9-to-7-carry1;
+  -moz-animation-name: anim-from-9-to-7-carry1;
+  -ms-animation-name: anim-from-9-to-7-carry1;
+  -o-animation-name: anim-from-9-to-7-carry1;
+  animation-name: anim-from-9-to-7-carry1;
 }
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-8 {
@@ -2268,6 +3052,14 @@
   -o-animation-name: anim-from-9-to-8-carry;
   animation-name: anim-from-9-to-8-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-8.carry1 {
+  -webkit-animation-name: anim-from-9-to-8-carry1;
+  -moz-animation-name: anim-from-9-to-8-carry1;
+  -ms-animation-name: anim-from-9-to-8-carry1;
+  -o-animation-name: anim-from-9-to-8-carry1;
+  animation-name: anim-from-9-to-8-carry1;
+}
 /* line 75, sass/styles.sass */
 .style-up .dial div.from-9-to-9 {
   background-position: -360px;
@@ -2290,3302 +3082,5460 @@
   -o-animation-name: anim-from-9-to-9-carry;
   animation-name: anim-from-9-to-9-carry;
 }
+/* line 93, sass/styles.sass */
+.style-up .dial div.from-9-to-9.carry1 {
+  -webkit-animation-name: anim-from-9-to-9-carry1;
+  -moz-animation-name: anim-from-9-to-9-carry1;
+  -ms-animation-name: anim-from-9-to-9-carry1;
+  -o-animation-name: anim-from-9-to-9-carry1;
+  animation-name: anim-from-9-to-9-carry1;
+}
 
 @-webkit-keyframes anim-from-0-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -40px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-0 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   8% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-1 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   16% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-2 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   24% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-3 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   32% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-4 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   40% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-5 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   48% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-6 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   56% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-7 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   64% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-8 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 107, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   72% {
     background-position: -720px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-9 {
-  /* line 104, sass/styles.sass */
+  /* line 110, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: 0px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -40px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: 0px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -40px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -40px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -80px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -40px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -40px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -80px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -120px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -80px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -80px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -120px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -160px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -120px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -120px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -160px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -200px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -160px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -160px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -200px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -240px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -200px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -200px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -240px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -280px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -240px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -240px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-0-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: 0px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-0-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: 0px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -40px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -80px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -40px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -80px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -80px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -120px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -80px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -80px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -120px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -160px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -120px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -120px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -160px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -200px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -160px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -160px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -200px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -240px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -200px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -200px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -240px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -280px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -240px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -240px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-1-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -40px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-1-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -40px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -80px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -120px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -80px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -120px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -120px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -160px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -120px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -120px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -160px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -200px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -160px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -160px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -200px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -240px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -200px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -200px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -240px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -280px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -240px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -240px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-2-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -80px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-2-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -80px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -480px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -520px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -480px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -120px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -160px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -120px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -160px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -160px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -200px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -160px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -160px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -200px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -240px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -200px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -200px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -240px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -280px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -240px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -240px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-3-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -120px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-3-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -120px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -480px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -520px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -480px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -520px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -560px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -520px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -520px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -160px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -200px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -160px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -200px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -200px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -240px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -200px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -200px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -240px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -280px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -240px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -240px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-4-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -160px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-4-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -160px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -480px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -520px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -480px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -520px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -560px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -520px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -520px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -560px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -600px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -560px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -560px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -200px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -240px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -200px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -240px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -240px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -280px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -240px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -240px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-5-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -200px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-5-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -200px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -480px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -520px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -480px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -520px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -560px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -520px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -520px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -560px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -600px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -560px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -560px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -600px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -600px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -640px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -600px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -600px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -240px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -280px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -240px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -280px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-6-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -240px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-6-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -240px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -480px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -520px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -480px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -520px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -560px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -520px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -520px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -560px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -600px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -560px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -560px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -600px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -600px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -640px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -600px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -600px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -640px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -640px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -680px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -640px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -640px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -280px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -320px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -280px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -320px;
   }
 }
 
 @-webkit-keyframes anim-from-7-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -280px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-7-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -280px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -480px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -520px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -480px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -520px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -560px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -520px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -520px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -560px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -600px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -560px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -560px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -600px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -600px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -640px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -600px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -600px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -640px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -640px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -680px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -640px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -640px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -680px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -680px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -720px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -680px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -680px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -720px;
   }
 }
 
 @-webkit-keyframes anim-from-8-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -320px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -320px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -360px;
+  }
+}
+
+@-webkit-keyframes anim-from-8-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -320px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -320px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -360px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-0-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -360px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -400px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-0-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -360px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -400px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-1-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   8% {
     background-position: -400px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -400px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -440px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-1-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  8% {
+    background-position: -400px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -400px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -440px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-2-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   16% {
     background-position: -440px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -440px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -480px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-2-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  16% {
+    background-position: -440px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -440px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -480px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-3-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   24% {
     background-position: -480px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -480px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -520px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-3-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  24% {
+    background-position: -480px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -480px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -520px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-4-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   32% {
     background-position: -520px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -520px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -560px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-4-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  32% {
+    background-position: -520px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -520px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -560px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-5-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   40% {
     background-position: -560px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -560px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -600px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-5-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  40% {
+    background-position: -560px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -560px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -600px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-6-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   48% {
     background-position: -600px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -600px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -640px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-6-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  48% {
+    background-position: -600px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -600px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -640px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-7-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   56% {
     background-position: -640px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -640px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -680px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-7-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  56% {
+    background-position: -640px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -640px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -680px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-8-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   64% {
     background-position: -680px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -680px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -720px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-8-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  64% {
+    background-position: -680px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -680px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -720px;
   }
 }
 
 @-webkit-keyframes anim-from-9-to-9-carry {
-  /* line 120, sass/styles.sass */
+  /* line 126, sass/styles.sass */
   0% {
     background-position: -360px;
   }
 
-  /* line 123, sass/styles.sass */
+  /* line 129, sass/styles.sass */
   72% {
     background-position: -720px;
   }
 
-  /* line 125, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   92% {
     background-position: -720px;
   }
 
-  /* line 127, sass/styles.sass */
+  /* line 133, sass/styles.sass */
+  100% {
+    background-position: -760px;
+  }
+}
+
+@-webkit-keyframes anim-from-9-to-9-carry1 {
+  /* line 143, sass/styles.sass */
+  0% {
+    background-position: -360px;
+  }
+
+  /* line 146, sass/styles.sass */
+  72% {
+    background-position: -720px;
+  }
+
+  /* line 148, sass/styles.sass */
+  92% {
+    background-position: -720px;
+  }
+
+  /* line 150, sass/styles.sass */
   100% {
     background-position: -760px;
   }

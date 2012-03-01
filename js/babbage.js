@@ -259,6 +259,10 @@ jQuery(document).ready(function($){
 		
 		if (val != res) {
 			unit_class += ' carry';
+			if (unit_class == $('#col-'+col.toString()+'-unit-'+unit.toString()).closest('div').attr('class'))
+			{
+				unit_class += '1';
+			}
 		}
 		
 		$('#col-'+col.toString()+'-unit-'+unit.toString()).closest('div').attr('class', unit_class);
