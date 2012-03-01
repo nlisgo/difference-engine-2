@@ -194,11 +194,6 @@ jQuery(document).ready(function($){
 		var result = result.result.join('');
 		
 		set_col(col, nocarrys, result, true);
-		
-		// set end result after slight delay
-		/*$('body').append('&nbsp;').animate({opacity: 1.0}, 500, function () {
-			set_col(col, result);
-		});*/
 	}
 	
 	// set the value of a column
@@ -213,10 +208,12 @@ jQuery(document).ready(function($){
 		
 		var valstr = lpad(val, units);
 		
-		// @todo - nlisgo - below function breaks if units is greater than 15
 		if (val[0] == '-' && val.length <= 15) {
+			val = val.substr(1);
+			
+			// @todo - nlisgo - replace all non numeric characters with 0's
 			// negative values are achieved by addition. if there are 2 units adding 99 would have the same affect as subtracting 1
-			var tmp = Math.pow(10, val.length) + parseInt(val);
+			var tmp = Math.pow(10, 15) - parseInt(val);
 			valstr = lpad(tmp.toString(), units, '9');
 		}
 		
