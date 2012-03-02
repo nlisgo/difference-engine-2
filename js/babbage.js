@@ -209,6 +209,7 @@ jQuery(document).ready(function($){
 		val=val.toString();
 			
 		if (val[0] == '-') {
+			// handle negative numbers
 			val=val.substr(1);
 			val=val.replace(new RegExp("[^0-9 ]", 'g'),"0")
 			var tmp="";
@@ -231,6 +232,7 @@ jQuery(document).ready(function($){
 				
 		}
 		else {
+			// handle positive numbers
 			val=val.replace(new RegExp("[^0-9 ]", 'g'),"0")
 			var valstr = lpad(val, units);
 		}
