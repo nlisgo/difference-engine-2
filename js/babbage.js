@@ -206,15 +206,33 @@ jQuery(document).ready(function($){
 			output = false;
 		}
 		
-		var valstr = lpad(val, units);
-		
-		if (val[0] == '-' && val.length <= 15) {
-			val = val.substr(1);
+		val=val.toString();
 			
-			// @todo - nlisgo - replace all non numeric characters with 0's
-			// negative values are achieved by addition. if there are 2 units adding 99 would have the same affect as subtracting 1
-			var tmp = Math.pow(10, 15) - parseInt(val);
-			valstr = lpad(tmp.toString(), units, '9');
+		if (val[0] == '-') {
+			val=val.substr(1);
+			val=val.replace(new RegExp("[^0-9 ]", 'g'),"0")
+			var tmp="";
+			for (i=val.length-1;i>=0;i--) {
+				tmp=(9-val[i])+tmp;
+			}
+
+			var tmp1="",c=1;
+			for (i=tmp.length-1;i>=0;i--) {
+				if (c+parseInt(tmp[i])==10){
+					tmp1="0"+tmp1;
+					c=1;
+				}
+				else {
+					tmp1=(c+parseInt(tmp[i]))+tmp1;
+					c=0;
+				}
+			}
+			var valstr = lpad(tmp1.toString(), units, '9');
+				
+		}
+		else {
+			val=val.replace(new RegExp("[^0-9 ]", 'g'),"0")
+			var valstr = lpad(val, units);
 		}
 		
 		if (res == undefined) {
