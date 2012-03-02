@@ -132,7 +132,7 @@ jQuery(document).ready(function($){
 		if (carryflags == undefined) {
 			var carryflags = [];
 			for (var i=0; i<len; i++) {
-				carryflags = 1;
+				carryflags[i] = 1;
 			}
 		}
 		
