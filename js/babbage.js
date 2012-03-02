@@ -211,29 +211,17 @@ jQuery(document).ready(function($){
 		if (val[0] == '-') {
 			// handle negative numbers
 			val=val.substr(1);
-			val=val.replace(new RegExp("[^0-9 ]", 'g'),"0")
+			val=val.replace(new RegExp("[^0-9 ]",'g'),"0");
 			var tmp="";
 			for (i=val.length-1;i>=0;i--) {
 				tmp=(9-val[i])+tmp;
 			}
-
-			var tmp1="",c=1;
-			for (i=tmp.length-1;i>=0;i--) {
-				if (c+parseInt(tmp[i])==10){
-					tmp1="0"+tmp1;
-					c=1;
-				}
-				else {
-					tmp1=(c+parseInt(tmp[i]))+tmp1;
-					c=0;
-				}
-			}
-			var valstr = lpad(tmp1.toString(), units, '9');
-				
+			var tmp1 = babbage_add(lpad(tmp,units,'9'),1);
+			var valstr = tmp1.result.join('').substr(1);
 		}
 		else {
 			// handle positive numbers
-			val=val.replace(new RegExp("[^0-9 ]", 'g'),"0")
+			val=val.replace(new RegExp("[^0-9 ]",'g'),"0");
 			var valstr = lpad(val, units);
 		}
 		
