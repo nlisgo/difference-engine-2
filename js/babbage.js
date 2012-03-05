@@ -474,6 +474,7 @@ jQuery(document).ready(function($){
 				transfer_col(i+1, i);
 			}
 			
+			share_preset();
 			
 			return false;
 		});
@@ -483,6 +484,8 @@ jQuery(document).ready(function($){
 			for (var i=0; i<columns_number()-1; i++) {
 				transfer_col(i+1, i);
 			}
+			
+			share_preset();
 			
 			return false;
 		});
@@ -509,6 +512,8 @@ jQuery(document).ready(function($){
 		
 			$('#control-from', this).val(newfromcol.toString());
 			$('#control-to', this).val(newtocol.toString());
+			
+			share_preset();
 		
 			return false;
 		});*/
