@@ -61,9 +61,13 @@ jQuery(document).ready(function($){
 		
 		presetstr += '&m='+encodeURIComponent($('.results').val());
 		
-		var share_url = window.location.protocol + '//' + window.location.host + window.location.pathname + presetstr;
+		var share_url = base_url() + presetstr;
 		
 		$('#share-engine').html('<p><a href="'+share_url+'" class="share_preset" target="_blank">Share engine</a></p>');
+	}
+	
+	function base_url() {
+		return window.location.protocol + '//' + window.location.host + window.location.pathname;
 	}
 	
 	function check_preset() {
@@ -146,6 +150,11 @@ jQuery(document).ready(function($){
 		$('#build-engine').html(build_engine(c, u, x));
 		
 		$('#control-engine').html(build_controls(c));
+		
+		$('#control-presets-select').change(function () {
+			window.location = $(this).val();
+		});
+		
 		$('#monitor-engine').html('<textarea class="results">'+m+'</textarea>');
 		
 		$('#control-step-submit').button();
@@ -524,6 +533,17 @@ jQuery(document).ready(function($){
 		controls += '<input type="submit" name="control-cycle-submit" id="control-cycle-submit" value="Single Cycle" />';
 		controls += '</form>';*/
 		
+		var presets = preset_engine();
+		
+		controls += '<form class="control-form" id="control-form-presets">';
+		controls += '<select name="control-presets-select" id="control-presets-select">';
+		controls += '<option value="">Select preset...</option>';
+		for (var i=0; i<presets.length; i++) {
+			controls += '<option value="'+base_url()+presets[i].href+'">'+presets[i].title+'</option>';
+		}
+		controls += '</select>';
+		controls += '</form>';
+		
 		return controls;
 	}
 	
@@ -602,13 +622,12 @@ jQuery(document).ready(function($){
 	
 	// this function could allow the user to use preset settings for examples
 	function preset_engine(which) {
-		switch (which) {
-			case 'xsquare':
-			case 'xsquared':
-			case 'x^2':
-				break;
-			
-		}
+		var presets = [
+			{title: 'x squared', href: '?preset=1&c=3&u=5&s=1&v=00000,00001,00002&x=01111&m=This%20is%20x%20squared'},
+			{title: 'x cubed', href: '?preset=1&c=4&u=5&s=1&v=00000,00001,00006,00006&x=01111&m=This%20is%20x%20cubed'}
+		];
+		
+		return presets;
 	}
 	
 	function debug(val) {
