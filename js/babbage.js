@@ -21,15 +21,24 @@ jQuery(document).ready(function($){
 		cols = parseInt($('#columns', this).val());
 		units = parseInt($('#units', this).val());
 		
-		$('#build-engine').html(build_engine(cols, units));
-		
-		if ($('#style-up', this).attr('checked')) {
+		if ($('#style-up').attr('checked')) {
 			$('#build-engine').addClass('style-up');
 		} else {
 			$('#build-engine').removeClass('style-up');
 		}
 		
-		$('#control-engine').html(build_controls(cols));
+		set_preset(cols, units);
+		
+		return false;
+	});
+	
+	function set_preset(c, u, v) {
+		cols = c;
+		units = u;
+		
+		$('#build-engine').html(build_engine(c, u));
+		
+		$('#control-engine').html(build_controls(c));
 		$('#monitor-engine').html('<textarea class="results"></textarea>');
 		
 		$('#control-step-submit').button();
@@ -40,6 +49,15 @@ jQuery(document).ready(function($){
 		
 		set_dialogs();
 		
+		if (v != undefined) {
+			set_engine(v);
+		}
+		
+		set_carrys();
+	}
+	
+	function set_carrys() {
+	
 		// toggle carry checkboxes
 		$('.carrys h2').button().click(function () {
 			var checked = false;
@@ -48,12 +66,11 @@ jQuery(document).ready(function($){
 					checked = true;
 				}
 			});
-			
+		
 			$('.carrys input').attr('checked', checked);
 		});
 		
-		return false;
-	});
+	}
 	
 	// Set up jQuery UI dialog boxes
 	function set_dialogs() {		
@@ -196,9 +213,16 @@ jQuery(document).ready(function($){
 		set_col(col, nocarrys, result, true);
 	}
 	
-	function set_engine(cols) {
-		debug();
+	function set_engine(colvals) {
+		if (!$.isArray(colvals)) {
+			colvals = colvals.split(/\r\n|\r|\n/);
+			debug(colvals);
+		}
 		
+		tmp = [];
+		for (var i=0; i<columns_number(); i++) {
+			set_col(i, colvals[i]);
+		}
 	}
 	
 	// set the value of a column
@@ -216,7 +240,7 @@ jQuery(document).ready(function($){
 		if (val[0] == '-') {
 			// handle negative numbers
 			val=val.substr(1);
-			val=val.replace(new RegExp("[^0-9 ]",'g'),"0");
+			val=val.replace(new RegExp("[^0-9]",'g'),"0");
 			var tmp="";
 			for (i=val.length-1;i>=0;i--) {
 				tmp=(9-val[i])+tmp;
@@ -226,7 +250,7 @@ jQuery(document).ready(function($){
 		}
 		else {
 			// handle positive numbers
-			val=val.replace(new RegExp("[^0-9 ]",'g'),"0");
+			val=val.replace(new RegExp("[^0-9]",'g'),"0");
 			var valstr = lpad(val, units);
 		}
 		
@@ -292,7 +316,7 @@ jQuery(document).ready(function($){
 	}
 	
 	function columns_number() {
-		return $('.column').length;
+		return cols;
 	}
 
 	// Set up jQuery for control form buttons
