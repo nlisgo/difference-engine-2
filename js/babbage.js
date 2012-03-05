@@ -249,7 +249,7 @@ jQuery(document).ready(function($){
 	function output_monitor(output) {
 		output = lpad(output, units);
 		
-		$('#monitor-engine .results').append(output+"\n");
+		$('#monitor-engine .results').append(output+"\r\n");
 		$('#monitor-engine .results').scrollTop($('#monitor-engine .results')[0].scrollHeight);
 	}
 	
