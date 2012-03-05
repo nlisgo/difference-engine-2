@@ -624,7 +624,7 @@ jQuery(document).ready(function($){
 	function preset_engine(which) {
 		var presets = [
 			{title: 'x squared', href: '?preset=1&c=3&u=5&s=1&v=00000,00001,00002&x=01111&m=This%20is%20x%20squared'},
-			{title: 'x cubed', href: '?preset=1&c=4&u=5&s=1&v=00000,00001,00006,00006&x=01111&m=This%20is%20x%20cubed'}
+			{title: 'x cubed', href: '?preset=1&c=4&u=8&s=1&v=00000000,00100001,00000000,00000006&x=01101111&m=This%20is%20x%20cubed'}
 		];
 		
 		return presets;
