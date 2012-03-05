@@ -5,6 +5,8 @@ jQuery(document).ready(function($){
 	
 	$('#set-engine-submit').button();
 	
+	check_preset();
+	
 	$('#style-up').change(function () {
 		if ($(this).attr('checked')) {
 			$('#build-engine').addClass('style-up');
@@ -27,14 +29,63 @@ jQuery(document).ready(function($){
 			$('#build-engine').removeClass('style-up');
 		}
 		
-		set_preset(cols, units);
+		set_preset(cols, units, [0,1,2]);
 		
 		return false;
 	});
 	
-	function set_preset(c, u, v) {
+	function check_preset() {
+		if (getParameterByName('preset')=='1') {
+			c = getParameterByName('c');
+			u = getParameterByName('u');
+			v = getParameterByName('v');
+			
+			s = getParameterByName('s');
+			
+			if (c == false) {
+				c = "3";
+			}
+
+			if (u == false) {
+				u = "5";
+			}
+			
+			if (v == false) {
+				v = [];
+			} else {
+				v = v.split(",");
+			}
+			
+			if (s != false || s != "0") {
+				$('#style-up').attr('checked', true);
+				$('#build-engine').addClass('style-up');
+			} else {
+				$('#style-up').attr('checked', false);
+				$('#build-engine').removeClass('style-up');
+			}
+			
+			set_preset(c,u,v);
+		}
+	}
+	
+	function getParameterByName(name)
+	{
+		name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+		var regexS = "[\\?&]" + name + "=([^&#]*)";
+		var regex = new RegExp(regexS);
+		var results = regex.exec(window.location.search);
+		if(results == null)
+			return false;
+		else
+			return decodeURIComponent(results[1].replace(/\+/g, " "));
+	}
+	
+	function set_preset(c, u, v, x) {
 		cols = c;
 		units = u;
+		
+		$('#columns', this).val(c.toString());
+		$('#units', this).val(u.toString());
 		
 		$('#build-engine').html(build_engine(c, u));
 		
