@@ -196,6 +196,11 @@ jQuery(document).ready(function($){
 		set_col(col, nocarrys, result, true);
 	}
 	
+	function set_engine(cols) {
+		debug();
+		
+	}
+	
 	// set the value of a column
 	function set_col(col, val, res, output) {
 		if (val == undefined) {
@@ -285,6 +290,10 @@ jQuery(document).ready(function($){
 		animate_col(tocol, result);
 		
 	}
+	
+	function columns_number() {
+		return $('.column').length;
+	}
 
 	// Set up jQuery for control form buttons
 	function set_controls() {
@@ -299,7 +308,7 @@ jQuery(document).ready(function($){
 				istart = 1;
 			}	
 			
-			for (var i=istart; i<$('.column').length-1; i+=2) {
+			for (var i=istart; i<columns_number()-1; i+=2) {
 				transfer_col(i+1, i);
 			}
 			
@@ -309,7 +318,7 @@ jQuery(document).ready(function($){
 		
 		$('#control-form-cycle').submit(function () {
 			
-			for (var i=0; i<$('.column').length-1; i++) {
+			for (var i=0; i<columns_number()-1; i++) {
 				transfer_col(i+1, i);
 			}
 			
@@ -327,10 +336,10 @@ jQuery(document).ready(function($){
 			var newtocol = tocol + 1;
 			var coldiff = fromcol - tocol;
 		
-			if (newfromcol >= $('.column').length) {
+			if (newfromcol >= columns_number()) {
 				newtocol = 0;
 				newfromcol = newtocol + coldiff;
-			} else if (newtocol >= $('.column').length) {
+			} else if (newtocol >= columns_number()) {
 				coldiff = tocol - fromcol;
 				newfromcol = 0;
 				newtocol = newfromcol + coldiff;
