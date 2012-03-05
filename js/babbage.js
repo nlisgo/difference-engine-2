@@ -17,6 +17,7 @@ jQuery(document).ready(function($){
 		} else {
 			$('#build-engine').removeClass('style-up');
 		}
+		share_preset();
 	});
 	
 	$('#set-engine').submit(function () {
@@ -29,34 +30,71 @@ jQuery(document).ready(function($){
 			$('#build-engine').removeClass('style-up');
 		}
 		
-		set_preset(cols, units, [0,1,2]);
+		set_preset(cols, units);
 		
 		return false;
 	});
 	
+	function share_preset() {
+		if ($('.control-form').length==0) {
+			return;
+		}
+		
+		var presetstr = '?preset=1&c='+cols+'&u='+units;
+		if ($('#style-up').attr('checked')) {
+			presetstr += '&s=1';
+		}
+		if ($('#control-form-half').hasClass('half-cycle')) {
+			presetstr += '&h=1';
+		}
+		
+		var colsarr = [];
+		
+		for (var i=0; i<cols; i++) {
+			colsarr[i] = get_val_col(i);
+		}
+		
+		presetstr += '&v='+colsarr.join(',');
+		
+		var carrys = carry_flags();
+		presetstr += '&x='+carrys.join("");
+		
+		presetstr += '&m='+encodeURIComponent($('.results').val());
+		
+		var share_url = window.location.protocol + '//' + window.location.host + window.location.pathname + presetstr;
+		
+		$('#share-engine').html('<p><a href="'+share_url+'" class="share_preset" target="_blank">Share engine</a></p>');
+	}
+	
 	function check_preset() {
+		
+		// e.g. ?preset=1&s=1&u=15&c=5&v=0,001000000000001,6,6,999999999999&x=11011111111111&h=1&m=Hello World
+		
 		if (getParameterByName('preset')=='1') {
 			c = getParameterByName('c');
 			u = getParameterByName('u');
 			v = getParameterByName('v');
 			
 			s = getParameterByName('s');
+			x = getParameterByName('x');
+			h = getParameterByName('h');
+			m = getParameterByName('m');
 			
-			if (c == false) {
+			if (c === false) {
 				c = "3";
 			}
 
-			if (u == false) {
+			if (u === false) {
 				u = "5";
 			}
 			
-			if (v == false) {
+			if (v === false) {
 				v = [];
 			} else {
 				v = v.split(",");
 			}
 			
-			if (s != false || s != "0") {
+			if (s !== "0") {
 				$('#style-up').attr('checked', true);
 				$('#build-engine').addClass('style-up');
 			} else {
@@ -64,7 +102,19 @@ jQuery(document).ready(function($){
 				$('#build-engine').removeClass('style-up');
 			}
 			
-			set_preset(c,u,v);
+			if (x === false) {
+				x = "";
+			}
+			
+			if (h !== "1") {
+				h = "0";
+			}
+			
+			if (m === false) {
+				m = "";
+			}
+			
+			set_preset(c,u,v,x,h,m);
 		}
 	}
 	
@@ -80,17 +130,23 @@ jQuery(document).ready(function($){
 			return decodeURIComponent(results[1].replace(/\+/g, " "));
 	}
 	
-	function set_preset(c, u, v, x) {
+	function set_preset(c, u, v, x, h, m) {
 		cols = c;
 		units = u;
 		
-		$('#columns', this).val(c.toString());
-		$('#units', this).val(u.toString());
+		if (m == undefined) {
+			m = "";
+		} else {
+			m = decodeURIComponent(m.toString());
+		}
 		
-		$('#build-engine').html(build_engine(c, u));
+		$('#columns').val(c.toString());
+		$('#units').val(u.toString());
+		
+		$('#build-engine').html(build_engine(c, u, x));
 		
 		$('#control-engine').html(build_controls(c));
-		$('#monitor-engine').html('<textarea class="results"></textarea>');
+		$('#monitor-engine').html('<textarea class="results">'+m+'</textarea>');
 		
 		$('#control-step-submit').button();
 		$('#control-half-submit').button();
@@ -104,7 +160,16 @@ jQuery(document).ready(function($){
 			set_engine(v);
 		}
 		
+		if (h === "1") {
+			$('#control-form-half').addClass('half-cycle');
+		}
+		
 		set_carrys();
+		share_preset();
+		
+		$('.results').keyup(function () {
+			share_preset();
+		});
 	}
 	
 	function set_carrys() {
@@ -119,6 +184,11 @@ jQuery(document).ready(function($){
 			});
 		
 			$('.carrys input').attr('checked', checked);
+			share_preset();
+		});
+		
+		$('.carrys input').change(function () {
+			share_preset();
 		});
 		
 	}
@@ -133,7 +203,7 @@ jQuery(document).ready(function($){
 			open: function () {
 				$(".dialog-form").unbind('submit');
 				$(".dialog-form").submit(function(){
-					set_col($('.dialog-col', this).val(), $('.dialog-value', this).val());
+					set_col($('.dialog-col', this).val(), $('.dialog-value', this).val(), $('.dialog-value', this).val(), false, true);
 					$(this).dialog("close");
 					return false;
 				});
@@ -141,6 +211,7 @@ jQuery(document).ready(function($){
 			buttons: {
 				"Set": function () {
 					set_col($('.dialog-col', this).val(), $('.dialog-value', this).val());
+					share_preset();
 					$(this).dialog("close");
 				},
 				"Reset": function () {
@@ -173,7 +244,6 @@ jQuery(document).ready(function($){
 				carrys[index+1] = 0;
 			}
 		});
-		
 		return carrys;
 	}
 	
@@ -267,7 +337,6 @@ jQuery(document).ready(function($){
 	function set_engine(colvals) {
 		if (!$.isArray(colvals)) {
 			colvals = colvals.split(/\r\n|\r|\n/);
-			debug(colvals);
 		}
 		
 		tmp = [];
@@ -277,7 +346,7 @@ jQuery(document).ready(function($){
 	}
 	
 	// set the value of a column
-	function set_col(col, val, res, output) {
+	function set_col(col, val, res, output, share) {
 		if (val == undefined) {
 			val = 0;
 		}
@@ -323,13 +392,22 @@ jQuery(document).ready(function($){
 			j++;
 		}
 		
+		if (share === true) {
+			share_preset();
+		}
+		
 		return false;
 	}
 	
 	function output_monitor(output) {
 		output = lpad(output, units);
 		
-		$('#monitor-engine .results').append(output+"\r\n");
+		var lb = "\r\n";
+		if ($('#monitor-engine .results').val()=='') {
+			lb = "";
+		}
+		
+		$('#monitor-engine .results').append(lb+output);
 		$('#monitor-engine .results').scrollTop($('#monitor-engine .results')[0].scrollHeight);
 	}
 	
@@ -391,7 +469,7 @@ jQuery(document).ready(function($){
 			return false;
 		});
 		
-		$('#control-form-cycle').submit(function () {
+		/*$('#control-form-cycle').submit(function () {
 			
 			for (var i=0; i<columns_number()-1; i++) {
 				transfer_col(i+1, i);
@@ -424,7 +502,7 @@ jQuery(document).ready(function($){
 			$('#control-to', this).val(newtocol.toString());
 		
 			return false;
-		});
+		});*/
 	}
 	
 	// build the engine controls
@@ -433,27 +511,25 @@ jQuery(document).ready(function($){
 		
 		var controls = '';
 		
-		if (cols>2) {
-			controls += '<form class="control-form" id="control-form-half">';
-			controls += '<input type="submit" name="control-half-submit" id="control-half-submit" value="Half Cycle" />';
-			controls += '</form>';
-			controls += '<form class="control-form" id="control-form-step">';
-			controls += '<label for="control-to">To: </label><input type="number" name="control-to" id="control-to" value="0" min="0" max="'+cols_default_from.toString()+'" />';
-			controls += '<label for="control-from">From: </label><input type="number" name="control-from" id="control-from" value="1" min="0" max="'+cols_default_from.toString()+'" />';
-			controls += '<input type="submit" name="control-step-submit" id="control-step-submit" value="Single Step" />';
-			controls += '</form>';
-		}
+		controls += '<form class="control-form" id="control-form-half">';
+		controls += '<input type="submit" name="control-half-submit" id="control-half-submit" value="Half Cycle" />';
+		controls += '</form>';
+/*		controls += '<form class="control-form" id="control-form-step">';
+		controls += '<label for="control-to">To: </label><input type="number" name="control-to" id="control-to" value="0" min="0" max="'+cols_default_from.toString()+'" />';
+		controls += '<label for="control-from">From: </label><input type="number" name="control-from" id="control-from" value="1" min="0" max="'+cols_default_from.toString()+'" />';
+		controls += '<input type="submit" name="control-step-submit" id="control-step-submit" value="Single Step" />';
+		controls += '</form>';
 		
 		controls += '<form class="control-form" id="control-form-cycle">';
 		controls += '<input type="submit" name="control-cycle-submit" id="control-cycle-submit" value="Single Cycle" />';
-		controls += '</form>';
+		controls += '</form>';*/
 		
 		return controls;
 	}
 	
 	// build the whole engine
-	function build_engine(cols, units) {
-		var engine = build_carry_switchs(units);
+	function build_engine(cols, units, x) {
+		var engine = build_carry_switchs(units, x);
 		for (var i=0; i<cols; i++) {
 			engine += build_col(i, units);
 		}
@@ -462,10 +538,31 @@ jQuery(document).ready(function($){
 	}
 	
 	// build the carry switchs
-	function build_carry_switchs(units) {
+	function build_carry_switchs(units, x) {
+		var padchr = "1";
+		
+		if (x == undefined) {
+			x = "";
+		}
+		
+		if (x == "0") {
+			padchr = x;
+		}
+		
+		x = lpad(x, units-1, padchr);
+		
+		x = x.replace(new RegExp("[^0-1]",'g'),"1");
+		x = x.split("");
+		x = x.reverse();
+		
 		var carrys = '<div class="carrys"><h2>Carrys</h2>';
 		for (var i=units-1; i>0; i--) {
-			carrys += '<div class="carry carry-unit-'+i.toString()+'"><input type="checkbox" name="carry-'+i.toString()+'" id="carry-'+i.toString()+'" value="1" checked="checked" /></div>';
+			var checkedstr = '';
+			if (x[i-1] == '1') {
+				checkedstr = ' checked="checked"';
+			}
+			
+			carrys += '<div class="carry carry-unit-'+i.toString()+'"><input type="checkbox" name="carry-'+i.toString()+'" id="carry-'+i.toString()+'" value="1"'+checkedstr+' /></div>';
 		}
 		carrys += '</div>';
 		
