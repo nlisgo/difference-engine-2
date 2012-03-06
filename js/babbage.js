@@ -422,6 +422,15 @@ jQuery(document).ready(function($){
 	
 	// set the value of a column
 	function set_col(col, val, res, output, share) {
+		
+		if (!$('#col-'+col.toString()).hasClass('glow')) {
+			$('#col-'+col.toString()).addClass('glow');
+			$('#col-'+col.toString()).removeClass('glow1');
+		} else {
+			$('#col-'+col.toString()).addClass('glow1');
+			$('#col-'+col.toString()).removeClass('glow');
+		}
+		
 		if (val == undefined) {
 			val = 0;
 		}

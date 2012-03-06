@@ -26,6 +26,45 @@
   float: left
   clear: left
 
+.glow, .glow1
+  padding: 3px	
+  $animdur: 1.2s
+  -webkit-animation-duration: $animdur
+  -moz-animation-duration: $animdur
+  -ms-animation-duration: $animdur
+  -o-animation-duration: $animdur
+  animation-duration: $animdur
+
+.glow	
+  -webkit-animation-name: anim-glow
+  -moz-animation-name: anim-glow
+  -ms-animation-name: anim-glow
+  -o-animation-name: anim-glow
+  animation-name: anim-glow
+
+.glow1
+  -webkit-animation-name: anim-glow1
+  -moz-animation-name: anim-glow1
+  -ms-animation-name: anim-glow1
+  -o-animation-name: anim-glow1
+  animation-name: anim-glow1
+
+@-webkit-keyframes anim-glow
+  0%
+    background-color: rgba(204,204,204,0)
+  70%
+    background-color: rgba(204,204,204,1)
+  100%
+    background-color: rgba(204,204,204,0)
+
+@-webkit-keyframes anim-glow1
+  0%
+    background-color: rgba(204,204,204,0)
+  70%
+    background-color: rgba(204,204,204,1)
+  100%
+    background-color: rgba(204,204,204,0)
+
 #monitor-engine .results
   display: block
   float: left
@@ -46,6 +85,9 @@
 .carrys, .column
   float: left
   margin: 0 10px
+
+.column
+  text-align: center
 
 .carrys input, .column select
   float: left
