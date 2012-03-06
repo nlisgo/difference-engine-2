@@ -47,6 +47,9 @@ jQuery(document).ready(function($){
 		if ($('#control-form-half').hasClass('half-cycle')) {
 			presetstr += '&h=1';
 		}
+		if ($('#control-form-inihalf').hasClass('initialised')) {
+			presetstr += '&i=1';
+		}
 		
 		var colsarr = [];
 		
@@ -83,6 +86,7 @@ jQuery(document).ready(function($){
 			x = getParameterByName('x');
 			h = getParameterByName('h');
 			m = getParameterByName('m');
+			i = getParameterByName('i');
 			
 			if (c === false) {
 				c = "3";
@@ -118,7 +122,11 @@ jQuery(document).ready(function($){
 				m = "";
 			}
 			
-			set_preset(c,u,v,x,h,m);
+			if (i === false) {
+				i = "0";
+			}
+			
+			set_preset(c,u,v,x,h,m,i);
 		}
 	}
 	
@@ -134,7 +142,7 @@ jQuery(document).ready(function($){
 			return decodeURIComponent(results[1].replace(/\+/g, " "));
 	}
 	
-	function set_preset(c, u, v, x, h, m) {
+	function set_preset(c, u, v, x, h, m, i) {
 		cols = c;
 		units = u;
 		
@@ -172,6 +180,11 @@ jQuery(document).ready(function($){
 		
 		if (h === "1") {
 			$('#control-form-half').addClass('half-cycle');
+		}
+		
+		if (i === "1") {
+			$('#control-form-inihalf').addClass('initialised');
+			$('#control-form-inihalf').hide();
 		}
 		
 		set_carrys();
@@ -524,7 +537,9 @@ jQuery(document).ready(function($){
 				}
 			}
 			
+			$(this).addClass('initialised');
 			share_preset();
+			$(this).hide();
 			
 			return false;
 		});
@@ -704,9 +719,9 @@ jQuery(document).ready(function($){
 	// this function could allow the user to use preset settings for examples
 	function preset_engine(which) {
 		var presets = [
-			{title: 'y=x^2', href: '?preset=1&c=3&u=5&s=1&v=00000,00001,00002&x=01111&m=y%3Dx%5E2%0A'},
-			{title: 'y=x^3', href: '?preset=1&c=4&u=8&s=1&v=00000000,00100001,00000000,00000006&x=01101111&m=y%3Dx%5E3%0A'},
-			{title: 'y=sin(x)', href: '?preset=1&c=8&u=31&s=1&v=9999999999999078179454426707883,0000290888204589607892654543931,9999999999999999524443419627878,9999999999975386226440808584670,0000000000000000002027349341123,0000000000000000002083081203004,9999999999999999999999998057426,9999999999999999999999999827445&x=0111111111111111111111111111111&m=y%20%3D%20sin(x)%0A0-23%20deg.%20step%201%20min%0A'}
+			{title: 'y=x^2', href: '?preset=1&c=3&u=5&s=1&i=1&v=00000,00001,00002&x=01111&m=y%3Dx%5E2%0A'},
+			{title: 'y=x^3', href: '?preset=1&c=4&u=8&s=1&i=1&v=00000000,00100001,00000000,00000006&x=01101111&m=y%3Dx%5E3%0A'},
+			{title: 'y=sin(x)', href: '?preset=1&c=8&u=31&i=1&s=1&v=9999999999999078179454426707883,0000290888204589607892654543931,9999999999999999524443419627878,9999999999975386226440808584670,0000000000000000002027349341123,0000000000000000002083081203004,9999999999999999999999998057426,9999999999999999999999999827445&x=0111111111111111111111111111111&m=y%20%3D%20sin(x)%0A0-23%20deg.%20step%201%20min%0A'}
 		];
 		
 		return presets;
