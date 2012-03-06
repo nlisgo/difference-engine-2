@@ -158,6 +158,7 @@ jQuery(document).ready(function($){
 		$('#monitor-engine').html('<textarea class="results">'+m+'</textarea>');
 		
 		$('#control-step-submit').button();
+		$('#control-inihalf-submit').button();
 		$('#control-half-submit').button();
 		$('#control-cycle-submit').button();
 		
@@ -423,7 +424,10 @@ jQuery(document).ready(function($){
 			val=val.substr(1);
 			val=val.replace(new RegExp("[^0-9]",'g'),"0");
 			
-			var tmp = babbage_subtract(lpad(0, units, '0'),val);
+			var carryflags = carry_flags();
+			
+			var tmp = babbage_subtract(lpad(0, units, '0'), val, carryflags);
+			debug(tmp);
 			var valstr = tmp.result.join('');
 			valstr = valstr.substr(1);
 			res = undefined;
@@ -510,8 +514,23 @@ jQuery(document).ready(function($){
 
 	// Set up jQuery for control form buttons
 	function set_controls() {
-		$('#control-form-half').submit(function () {
+		$('#control-form-inihalf').submit(function () {
+			var carryflags = carry_flags();
 			
+			if (cols > 3) {
+				for (var i=3; i<cols; i+=2) {
+					var tmp = babbage_subtract(get_val_col(i-1), get_val_col(i), carryflags);
+					set_col(i-1, tmp.result.join(''));
+				}
+			}
+			
+			share_preset();
+			
+			return false;
+		});
+		
+		$('#control-form-half').submit(function () {
+			$('#control-form-inihalf').remove();
 			var istart = 0;
 			
 			if (!$(this).hasClass('half-cycle')) {
@@ -575,6 +594,12 @@ jQuery(document).ready(function($){
 		var cols_default_from = cols - 1;
 		
 		var controls = '';
+		
+		if (cols > 3) {
+			controls += '<form class="control-form" id="control-form-inihalf">';
+			controls += '<input type="submit" name="control-inihalf-submit" id="control-inihalf-submit" value="Initialise Half Cycle" />';
+			controls += '</form>';
+		}
 		
 		controls += '<form class="control-form" id="control-form-half">';
 		controls += '<input type="submit" name="control-half-submit" id="control-half-submit" value="Half Cycle" />';
@@ -679,8 +704,9 @@ jQuery(document).ready(function($){
 	// this function could allow the user to use preset settings for examples
 	function preset_engine(which) {
 		var presets = [
-			{title: 'x squared', href: '?preset=1&c=3&u=5&s=1&v=00000,00001,00002&x=01111&m=This%20is%20x%20squared'},
-			{title: 'x cubed', href: '?preset=1&c=4&u=8&s=1&v=00000000,00100001,00000000,00000006&x=01101111&m=This%20is%20x%20cubed'}
+			{title: 'y=x^2', href: '?preset=1&c=3&u=5&s=1&v=00000,00001,00002&x=01111&m=y%3Dx%5E2%0A'},
+			{title: 'y=x^3', href: '?preset=1&c=4&u=8&s=1&v=00000000,00100001,00000000,00000006&x=01101111&m=y%3Dx%5E3%0A'},
+			{title: 'y=sin(x)', href: '?preset=1&c=8&u=31&s=1&v=9999999999999078179454426707883,0000290888204589607892654543931,9999999999999999524443419627878,9999999999975386226440808584670,0000000000000000002027349341123,0000000000000000002083081203004,9999999999999999999999998057426,9999999999999999999999999827445&x=0111111111111111111111111111111&m=y%20%3D%20sin(x)%0A0-23%20deg.%20step%201%20min%0A'}
 		];
 		
 		return presets;
