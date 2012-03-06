@@ -266,6 +266,58 @@ jQuery(document).ready(function($){
 		return val;
 	}
 	
+	function babbage_subtract(from, to, carryflags) {
+		var len = from.toString().length;
+		if (to.toString().length > len) {
+			len = to.toString().length;
+		}
+		var fromstr = '1'+lpad(from, len);
+		var tostr = '0'+lpad(to, len);
+		
+		len++;
+		
+		if (carryflags == undefined) {
+			var carryflags = [];
+			for (var i=0; i<len; i++) {
+				carryflags[i] = 1;
+			}
+		}
+
+		var fromarr = fromstr.split("");
+		var toarr = tostr.split("");
+
+		var result = [];
+		var carrys = [];
+		var nocarrys = [];
+		
+		for (var i=len-1; i>=0; i--) {
+			nocarrys[i] = result[i] = parseInt(fromarr[i])-parseInt(toarr[i]);
+			if (nocarrys[i]<0) {
+				nocarrys[i] += 10;
+			}
+			carrys[i] = 0;
+		}
+		
+		for (var i=result.length-1; i>=0; i--) {
+			if (result[i]<0) {
+				result[i] += 10;
+				if (carryflags[i-1] == 1) {
+					result[i-1] -= 1;
+					carrys[i-1] += 1;
+				}
+			}
+		}
+		
+		// return value with carries disabled, carries and result if all carries enabled
+		return {
+			'carryflags': carryflags,
+			'nocarrys': nocarrys,
+			'carrys': carrys,
+			'result': result
+		};
+		
+	}
+	
 	// adds values together one cog at a time. If a value > 9 then this will need to trigger a carry
 	// this is adding one unit at a time so this makes it easy to add together larger integers
 	function babbage_add(from, to, carryflags) {
@@ -370,12 +422,11 @@ jQuery(document).ready(function($){
 			// handle negative numbers
 			val=val.substr(1);
 			val=val.replace(new RegExp("[^0-9]",'g'),"0");
-			var tmp="";
-			for (i=val.length-1;i>=0;i--) {
-				tmp=(9-val[i])+tmp;
-			}
-			var tmp1 = babbage_add(lpad(tmp,units,'9'),1);
-			var valstr = tmp1.result.join('').substr(1);
+			
+			var tmp = babbage_subtract(lpad(0, units, '0'),val);
+			var valstr = tmp.result.join('');
+			valstr = valstr.substr(1);
+			res = undefined;
 		}
 		else {
 			// handle positive numbers
