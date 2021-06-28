@@ -1,0 +1,200 @@
+/* This file will hold the main styles for your website.
+@import bourbon/bourbon
+
+#build-engine
+  display: block
+  float: left
+  position: relative
+
+#control-engine
+  display: block
+  position: relative
+  float: left
+  padding-top: 70px
+  input
+    float: left
+  label, #control-step-submit
+    float: left
+    clear: left
+
+#control-form-half, #control-form-step
+  margin-bottom: 20px
+  display: block
+  float: left
+  clear: left
+
+#share-engine
+  float: left
+  clear: left
+
+.glow, .glow1
+  $animdur: 1.2s
+  -webkit-animation-duration: $animdur
+  -moz-animation-duration: $animdur
+  -ms-animation-duration: $animdur
+  -o-animation-duration: $animdur
+  animation-duration: $animdur
+
+.glow	
+  -webkit-animation-name: anim-glow
+  -moz-animation-name: anim-glow
+  -ms-animation-name: anim-glow
+  -o-animation-name: anim-glow
+  animation-name: anim-glow
+
+.glow1
+  -webkit-animation-name: anim-glow1
+  -moz-animation-name: anim-glow1
+  -ms-animation-name: anim-glow1
+  -o-animation-name: anim-glow1
+  animation-name: anim-glow1
+
+@-webkit-keyframes anim-glow
+  0%
+    background-color: rgba(204,204,204,0)
+  70%
+    background-color: rgba(204,204,204,1)
+  100%
+    background-color: rgba(204,204,204,0)
+
+@-webkit-keyframes anim-glow1
+  0%
+    background-color: rgba(204,204,204,0)
+  70%
+    background-color: rgba(204,204,204,1)
+  100%
+    background-color: rgba(204,204,204,0)
+
+#monitor-engine .results
+  display: block
+  float: left
+  clear: left
+  width: 400px
+  height: 100px
+  margin-top: 20px
+  border: 1px solid #000
+  padding: 10px
+  result
+    float: left
+    clear: left
+
+.carry, .dial
+  display: block
+  height: 25px
+
+.carrys, .column
+  padding: 3px
+  float: left
+  margin: 0 10px
+
+.column
+  text-align: center
+
+.carrys input, .column select
+  float: left
+  clear: left
+
+$unitdiff: -40px
+
+.style-up .dial div
+  height: 25px
+  width: 100px
+  background-image: url(../images/dial.png)
+  background-repeat: no-repeat
+  display: block
+  -webkit-animation-timing-function: linear
+  -moz-animation-timing-function: linear
+  -ms-animation-timing-function: linear
+  -o-animation-timing-function: linear
+  transition-timing-function: linear
+  span
+    height: 25px
+    width: 100px
+    background-image: url(../images/dialoverlay.png)
+    background-repeat: no-repeat
+    display: block
+  input
+    display: none
+  @for $i from 0 through 9
+    @for $j from 0 through 9
+      $k: $j
+      @if $i > $j
+        $k: $j + 10
+      $animdur: 1.2s
+      &.from-#{$i}-to-#{$j}
+        background-position: $unitdiff * $k
+        -webkit-animation-duration: $animdur
+        -moz-animation-duration: $animdur
+        -ms-animation-duration: $animdur
+        -o-animation-duration: $animdur
+        animation-duration: $animdur
+        -webkit-animation-name: anim-from-#{$i}-to-#{$j}
+        -moz-animation-name: anim-from-#{$i}-to-#{$j}
+        -ms-animation-name: anim-from-#{$i}-to-#{$j}
+        -o-animation-name: anim-from-#{$i}-to-#{$j}
+        animation-name: anim-from-#{$i}-to-#{$j}
+      &.from-#{$i}-to-#{$j}.carry
+        -webkit-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        -moz-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        -ms-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        -o-animation-name: anim-from-#{$i}-to-#{$j}-carry
+        animation-name: anim-from-#{$i}-to-#{$j}-carry
+      &.from-#{$i}-to-#{$j}.carry1
+        -webkit-animation-name: anim-from-#{$i}-to-#{$j}-carry1
+        -moz-animation-name: anim-from-#{$i}-to-#{$j}-carry1
+        -ms-animation-name: anim-from-#{$i}-to-#{$j}-carry1
+        -o-animation-name: anim-from-#{$i}-to-#{$j}-carry1
+        animation-name: anim-from-#{$i}-to-#{$j}-carry1
+
+@for $i from 0 through 9
+  @for $j from 0 through 9
+    @-webkit-keyframes anim-from-#{$i}-to-#{$j}
+      $k: $j
+      @if $i > $j
+        $k: $j + 10
+      $m: $i
+      @for $l from 0 through 9
+        @if $k >= ($i + $l)
+          $m: $i + $l
+      0%
+        background-position: $unitdiff * $i
+      @if $i != $j
+        #{8 * ($m - $i)}%
+          background-position: $unitdiff * $m
+
+@for $i from 0 through 9
+  @for $j from 0 through 9
+    @-webkit-keyframes anim-from-#{$i}-to-#{$j}-carry
+      $k: $j
+      @if $i >= $j
+        $k: $j + 10
+      $m: $i
+      @for $l from 0 through 9
+        @if $k > ($i + $l)
+          $m: $i + $l
+      0%
+        background-position: $unitdiff * $i
+      @if ($m - $i) > 0
+        #{8 * ($m - $i)}%
+          background-position: $unitdiff * $m
+      92%
+        background-position: $unitdiff * $m
+      100%
+        background-position: $unitdiff * $k
+    @-webkit-keyframes anim-from-#{$i}-to-#{$j}-carry1
+      $k: $j
+      @if $i >= $j
+        $k: $j + 10
+      $m: $i
+      @for $l from 0 through 9
+        @if $k > ($i + $l)
+          $m: $i + $l
+      0%
+        background-position: $unitdiff * $i
+      @if ($m - $i) > 0
+        #{8 * ($m - $i)}%
+          background-position: $unitdiff * $m
+      92%
+        background-position: $unitdiff * $m
+      100%
+        background-position: $unitdiff * $k
