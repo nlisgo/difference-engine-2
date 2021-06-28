@@ -35,14 +35,6 @@ jQuery(document).ready(function($){
 		
 		window.location = base_url()+presetstr;
 		
-		/*if ($('#style-up').attr('checked')) {
-			$('#build-engine').addClass('style-up');
-		} else {
-			$('#build-engine').removeClass('style-up');
-		}*/
-		
-		//set_preset(cols, units);
-		
 		return false;
 	});
 	
@@ -603,45 +595,6 @@ jQuery(document).ready(function($){
 			
 			return false;
 		});
-		
-		/*$('#control-form-cycle').submit(function () {
-			
-			for (var i=0; i<columns_number()-1; i++) {
-				transfer_col(i+1, i);
-			}
-			
-			share_preset();
-			
-			return false;
-		});
-		
-		$('#control-form-step').submit(function () {
-			var fromcol = parseInt($('#control-from', this).val());
-			var tocol = parseInt($('#control-to', this).val());
-			
-			transfer_col(fromcol, tocol);
-		
-			// after result adjust the values of the from and to fields
-			var newfromcol = fromcol + 1;
-			var newtocol = tocol + 1;
-			var coldiff = fromcol - tocol;
-		
-			if (newfromcol >= columns_number()) {
-				newtocol = 0;
-				newfromcol = newtocol + coldiff;
-			} else if (newtocol >= columns_number()) {
-				coldiff = tocol - fromcol;
-				newfromcol = 0;
-				newtocol = newfromcol + coldiff;
-			}		
-		
-			$('#control-from', this).val(newfromcol.toString());
-			$('#control-to', this).val(newtocol.toString());
-			
-			share_preset();
-		
-			return false;
-		});*/
 	}
 	
 	// build the engine controls
@@ -659,15 +612,6 @@ jQuery(document).ready(function($){
 		controls += '<form class="control-form" id="control-form-half">';
 		controls += '<input type="submit" name="control-half-submit" id="control-half-submit" value="Half Cycle" />';
 		controls += '</form>';
-/*		controls += '<form class="control-form" id="control-form-step">';
-		controls += '<label for="control-to">To: </label><input type="number" name="control-to" id="control-to" value="0" min="0" max="'+cols_default_from.toString()+'" />';
-		controls += '<label for="control-from">From: </label><input type="number" name="control-from" id="control-from" value="1" min="0" max="'+cols_default_from.toString()+'" />';
-		controls += '<input type="submit" name="control-step-submit" id="control-step-submit" value="Single Step" />';
-		controls += '</form>';
-		
-		controls += '<form class="control-form" id="control-form-cycle">';
-		controls += '<input type="submit" name="control-cycle-submit" id="control-cycle-submit" value="Single Cycle" />';
-		controls += '</form>';*/
 		
 		return controls;
 	}
